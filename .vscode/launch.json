@@ -1,0 +1,63 @@
+
+{
+    
+    "version": "0.2.0",
+       "configurations": [
+
+           {
+            "name": "Publish BC_TEST",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://bc.scanpan.dk",
+               
+            //"startupObjectId": 50064,
+            //"startupObjectType": "Page",
+            
+            "launchBrowser": true,
+            
+            "port": 7649,
+            "serverInstance": "BC_TEST_UP",
+            
+              
+            "authentication": "UserPassword",
+            "schemaUpdateMode": "Synchronize", // Synchronize or Recreate
+            //"schemaUpdateMode": "Recreate",                   
+            "breakOnError": true,
+            "breakOnRecordWrite": false,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,               
+           },
+        {
+            "name": "Debug BC_TEST_UP",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://bc.scanpan.dk",
+            "port": 7649,
+            "serverInstance": "BC_TEST_UP",
+            "launchBrowser": true,
+            "authentication": "UserPassword",
+            "breakOnError": true,
+            "breakOnRecordWrite": false,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,          
+        },
+        {
+            "name": "Debug BC_TEST",
+            "type": "al",
+            "request": "launch",
+            "environmentType": "OnPrem",
+            "server": "http://bc.scanpan.dk",
+            "authentication": "Windows",
+            "port": 7549,
+            "serverInstance": "BC_TEST",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        }
+    ]    
+}
