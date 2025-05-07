@@ -13,7 +13,8 @@ codeunit 50004 "TEST_CU"
     end;
 
     var
-VareHouseShipmentLine: Record "Warehouse Shipment Line";
+    VareHouseShipmentLine: Record "Warehouse Shipment Line";
+    PickWorksheet: page "Pick Worksheet";
 
 
 
