@@ -1,5 +1,5 @@
 codeunit 50031 "RecursiveBOMCalculation"
-{ 
+{
     /// <summary>
     /// 2024.10 Jesper Harder 093 Recursive BoM Listing of items. Inspiration from NAV5 sql
     /// </summary>
@@ -61,24 +61,33 @@ codeunit 50031 "RecursiveBOMCalculation"
     local procedure ProcessBOMLevel(ItemMaster: Code[20]; BOMNo: Code[20]; BoMLevel: Integer; var RecursiveBOMtemp: Record "RecursiveBOMtemp")
     var
         ProductionBOMLine: Record "Production BOM Line";
+        Item: Record Item;
     begin
 
+        if not Item.Get(BOMNo) then
+            exit;
+        BOMNo := Item."Production BOM No."; // Use the Production BOM No. from the Item record
+
+        // Initialize the recursive BOM temp record
         ProductionBOMLine.SetRange("Production BOM No.", BOMNo);
-        if ProductionBOMLine.FindSet() then
-            repeat
-                InitializeRecursiveBOMtemp(ItemMaster, BOMNo, BoMLevel, ProductionBOMLine, RecursiveBOMtemp);
-                CalculateCostsAndScrap(ProductionBOMLine, RecursiveBOMtemp);
+        if not ProductionBOMLine.FindSet() then
+            exit;
 
-                AssignItemBomDetails(ProductionBOMLine."No.", RecursiveBOMtemp);
-                AssignItemMasterDetails(ItemMaster, RecursiveBOMtemp);
+        repeat
+            InitializeRecursiveBOMtemp(ItemMaster, BOMNo, BoMLevel, ProductionBOMLine, RecursiveBOMtemp);
+            CalculateCostsAndScrap(ProductionBOMLine, RecursiveBOMtemp);
 
-                // Insert and proceed to next level
-                EntryNo += 1;
-                RecursiveBOMtemp."Entry No." := EntryNo;
-                if RecursiveBOMtemp.Insert() then;
+            AssignItemBomDetails(ProductionBOMLine."No.", RecursiveBOMtemp);
+            AssignItemMasterDetails(ItemMaster, RecursiveBOMtemp);
 
-                ProcessBOMLevel(ItemMaster, ProductionBOMLine."No.", BoMLevel + 1, RecursiveBOMtemp);
-            until ProductionBOMLine.Next() = 0;
+            // Insert and proceed to next level
+            EntryNo += 1;
+            RecursiveBOMtemp."Entry No." := EntryNo;
+            //if RecursiveBOMtemp.Insert() then;
+            RecursiveBOMtemp.Insert();
+
+            ProcessBOMLevel(ItemMaster, ProductionBOMLine."No.", GetMaxBOMLevel(RecursiveBOMtemp) + 1, RecursiveBOMtemp);
+        until ProductionBOMLine.Next() = 0;
     end;
 
 
@@ -128,6 +137,7 @@ codeunit 50031 "RecursiveBOMCalculation"
         Quantity: Decimal;
         OverheadCost: Decimal;
         TotalCost: Decimal;
+        RolledupMaterialCost: Decimal;
 
     begin
         // PreData
@@ -150,9 +160,16 @@ codeunit 50031 "RecursiveBOMCalculation"
         Quantity := CompItemQtyBase / LotSize;
         //BOMCompQtyBase := CompItemQtyBase / LotSize;
 
+        // Fix 13.06.2025 JH - If the item is a service item, we do not calculate costs
+        // RolledupMaterialCost is used for calculating the material cost
+        RolledupMaterialCost := Item."Rolled-up Material Cost";
+        if Item."Costing Method" = Item."Costing Method"::FIFO then
+            RolledupMaterialCost := Item."Unit Cost";
+
+        // Calculate costs
         MaterialCost :=
-                Round(
-                Quantity * Item."Rolled-up Material Cost",
+                Round(//Quantity * Item."Rolled-up Material Cost",
+                Quantity * RolledupMaterialCost,
                 GLSetup."Unit-Amount Rounding Precision");
 
         CapacityCost :=
@@ -286,6 +303,24 @@ codeunit 50031 "RecursiveBOMCalculation"
         RecursiveBOMtemp.Prod_GenProdPostingGroup := Item."Gen. Prod. Posting Group";
         RecursiveBOMtemp.Prod_InventoryPostingGroup := Item."Inventory Posting Group";
     end;
+
+
+
+    procedure GetMaxBOMLevel(var RecursiveBOMtemp: Record "RecursiveBOMtemp"): Integer
+    var
+        MaxLevel: Integer;
+    begin
+        MaxLevel := 0;
+
+        if RecursiveBOMtemp.FindSet() then
+            repeat
+                if RecursiveBOMtemp.BOMlevel > MaxLevel then
+                    MaxLevel := RecursiveBOMtemp.BOMlevel;
+            until RecursiveBOMtemp.Next() = 0;
+
+        exit(MaxLevel);
+    end;
+
 
 }
 

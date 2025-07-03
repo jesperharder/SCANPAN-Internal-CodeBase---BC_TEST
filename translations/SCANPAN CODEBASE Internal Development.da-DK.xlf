@@ -2567,9 +2567,8 @@ Betingelsen %1 = "%2" \Med tilhørende felt %3, med værdien "%4" \Skal være %5
         </trans-unit>
         <trans-unit id="Table 32171465 - Field 150768713 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>ProductionDateSelection</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Datavælger Produktion</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table UserSettingsPage - Field ProductionDateSelection - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 32171465 - Field 4020758431 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -3788,6 +3787,36 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <target>Specificere værdien for Tabel.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CDOE-MailRecipient - Control Table - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4167964919 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Campaign Comments</source>
+          <target>Kampagnebemærkninger</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CommentsFactBox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4167964919 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scanpan</source>
+          <target>Scanpan</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CommentsFactBox - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Page 4167964919 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target>Generelt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CommentsFactBox - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4167964919 - Control 2790486453 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the comment text.</source>
+          <target>Specificerer bemærkning</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CommentsFactBox - Control Comment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4167964919 - Control 3192175264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date of the comment.</source>
+          <target>Specificerer dato på bemærkning</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CommentsFactBox - Control Date - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2834699717 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
           <source>New,Item,Barcode,Item Reference</source>
@@ -5027,6 +5056,217 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Picture URL Dialog - Control Single Item Image update - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2598971458 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Purchase Receipt Lines</source>
+          <target>Bogførte købsmodtagelseslinjer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scanpan</source>
+          <target>Scanpan</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 779730061 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vendor name of the posted purchase receipt line.</source>
+          <target>Angiver leverandørens navn på den bogførte indkøbsmodtagelseslinje.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control VendorName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 779730061 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Name</source>
+          <target>Kreditornavn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control VendorName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 1339771079 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vendor number of the posted purchase receipt line.</source>
+          <target>Angiver leverandørens nummer på den bogførte indkøbsmodtagelseslinje.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control VendorNoFilter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 1339771079 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Filter</source>
+          <target>Kreditorfilter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control VendorNoFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 2814799924 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the bin where the items are picked or put away.</source>
+          <target>Angiver den placering, hvor varerne plukkes eller lægges på lager.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Bin Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 3792369418 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the vendor who delivered the items.</source>
+          <target>Angiver navnet på den kreditor, der leverede varerne.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Buy-from Vendor No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 2175856358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the container ID of the posted purchase receipt line.</source>
+          <target>Angiver container-ID'et for den bogførte indkøbsmodtagelseslinje.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Container ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 4198939294 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the currency that is used on the entry.</source>
+          <target>Angiver den valuta, der er brugt i posten.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Currency Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies either the name of or a description of the item or general ledger account.</source>
+          <target>Angiver navnet på eller en beskrivelse af varen eller finanskontoen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number of the posted purchase receipt line.</source>
+          <target>Angiver dokumentnummeret for den bogførte indkøbsmodtagelseslinje.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 3469770434 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date the items were expected.</source>
+          <target>Angiver den dato, hvor varerne blev forventet modtaget.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Expected Receipt Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 633819257 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Gen. Bus. Posting Group field.</source>
+          <target>Angiver værdien af feltet 'Generel forretningsbogføringsgruppe'.</target>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Gen. Bus. Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 2139693550 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Gen. Prod. Posting Group field.</source>
+          <target>Specificerer værdien for produktbogføringsgruppe.</target>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Gen. Prod. Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 1037119892 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Item Category Code field.</source>
+          <target>Angiver værdien af feltet 'Varekategori-kode'.</target>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Item Category Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 3320823955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the line number of the posted purchase receipt line.</source>
+          <target>Angiver linjenummeret for den bogførte indkøbsmodtagelseslinje.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Line No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the location code of the posted purchase receipt line.</source>
+          <target>Angiver lokationskoden for den bogførte indkøbsmodtagelseslinje.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the involved entry or record, according to the specified number series.</source>
+          <target>Angiver nummeret på den tilknyttede post eller record i overensstemmelse med den angivne nummerserie.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 2632124822 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date when the related order was created.</source>
+          <target>Angiver den dato, hvor den relaterede ordre blev oprettet.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Order Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 176518433 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the line number of the order that created the entry.</source>
+          <target>Angiver linjenummeret på den ordre, som oprettede posten.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Order Line No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 2202932243 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the line number of the order that created the entry.</source>
+          <target>Angiver linjenummeret på den ordre, som oprettede posten.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Order No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 3941277175 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the vendor that you received the invoice from.</source>
+          <target>Angiver nummeret på den kreditor, du har modtaget fakturaen fra.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Pay-to Vendor No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 1623058472 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date when the item is planned to arrive in inventory. Forward calculation: planned receipt date = order date + vendor lead time (per the vendor calendar and rounded to the next working day in first the vendor calendar and then the location calendar). If no vendor calendar exists, then: planned receipt date = order date + vendor lead time (per the location calendar). Backward calculation: order date = planned receipt date - vendor lead time (per the vendor calendar and rounded to the previous working day in first the vendor calendar and then the location calendar). If no vendor calendar exists, then: order date = planned receipt date - vendor lead time (per the location calendar).</source>
+          <target>Angiver den dato, hvor varen skal ankomme på lageret. Forlæns beregning: planlagt modtagelsesdato = ordredato + kreditors leveringstid (ifølge kreditorens kalender og afrundet til næste arbejdsdag først i kreditorens kalender og derefter lokationens kalender). Hvis der ingen kalender findes hos kreditoren: planlagt modtagelsesdato = ordredato + kreditors leveringstid (ifølge lokationens kalender). Baglæns beregning: ordredato = planlagt modtagelsesdato - kreditors leveringstid (ifølge kreditorens kalender og afrundet til den forrige arbejdsdag først i kreditorens kalender og derefter lokationens kalender). Hvis der ingen kalender findes hos kreditoren: ordredato = planlagt modtagelsesdato - kreditors leveringstid (ifølge lokations kalender).</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Planned Receipt Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Posting Date field.</source>
+          <target>Specificerer feltet bogføringsdato</target>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 429198581 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date that the vendor has promised to deliver the order.</source>
+          <target>Angiver den dato, som kreditoren har lovet at levere ordren.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Promised Receipt Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 37048319 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the promised receipt date from the receipt header.</source>
+          <target>Angiver den lovede modtagelsesdato fra modtagelseshovedet.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Promised Receipt Date (Header) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 37048319 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Promised Receipt Date (Header)</source>
+          <target>Accepteret modtagelsesdato (hoved)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Promised Receipt Date (Header) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of units of the item specified on the line.</source>
+          <target>Angiver, hvor mange enheder af varen der skal angives på linjen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 1602222300 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date that you want the vendor to deliver to the ship-to address. The value in the field is used to calculate the latest date you can order the items to have them delivered on the requested receipt date. If you do not need delivery on a specific date, you can leave the field blank.</source>
+          <target>Angiver den dato, som du har bedt kreditoren om at levere ordren på til leveringsadressen. Værdien i feltet bruges til at beregne, hvilken dato du senest kan bestille varerne, hvis de skal være leveret på den ønskede modtagelsesdato. Hvis det ikke er nødvendigt med levering på en bestemt dato, kan du lade feltet stå tomt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Requested Receipt Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the line type.</source>
+          <target>Angiver linjetypen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 381961415 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the cost of one unit of the item or resource on the line.</source>
+          <target>Angiver omkostningen, på én enhed af varen eller ressourcen på linjen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Unit Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 68186622 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the cost, in LCY, of one unit of the item or resource on the line.</source>
+          <target>Angiver omkostningen, i RV, på én enhed af varen eller ressourcen på linjen.</target>
+          <target>[NAB: SUGGESTION]Angiver omkostningen, i LV, på én enhed af varen eller ressourcen på linjen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Unit Cost (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 2385270358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted.</source>
+          <target>Angiver, hvordan hver enhed af varen eller ressourcen måles, f.eks. i enheder eller timer. Som standard indsættes værdien i feltet Basisenhed på kortet vare eller ressource.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Unit of Measure Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 2903269170 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number that the vendor uses for this item.</source>
+          <target>Angiver det nummer, som kreditoren bruger til denne vare.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Vendor Item No. - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2279884345 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Production BOM Line</source>
           <target>Produktionsstyklistelinje</target>
@@ -5678,16 +5918,14 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
         </trans-unit>
         <trans-unit id="Page 2585537746 - Control 150768713 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies if Begining date or Ending date is uses to display data.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Angiver, om startdato eller slutdato bruges til at vise data.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingDashboard - Control ProductionDateSelection - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2585537746 - Control 150768713 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Date Selection</source>
-          <target>[NAB: SUGGESTION]Datovalg</target>
+          <target>Datovalg</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingDashboard - Control ProductionDateSelection - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2585537746 - Control 2388510493 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -7083,6 +7321,47 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <target>Angiver varianten af varen på linjen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ProdLines - Control Variant Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 872734200 - Action 1314617678 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Switch between ascending and descending sort order for due date.</source>
+          <target>Skift mellem stigende og faldende sortering efter forfaldsdato.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ProdLines - Action ToggleDueDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 872734200 - Action 1314617678 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Toggle Due Date</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ProdLines - Action ToggleDueDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872734200 - Action 3620430611 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Switch between ascending and descending sort order for ending date.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ProdLines - Action ToggleEndingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 872734200 - Action 3620430611 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Toggle Ending Date</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ProdLines - Action ToggleEndingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872734200 - Action 246724602 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Switch between ascending and descending sort order for starting date.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ProdLines - Action ToggleStartingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 872734200 - Action 246724602 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Toggle Starting Date</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ProdLines - Action ToggleStartingDate - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1022637636 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Production Controlling Lines</source>
@@ -12682,11 +12961,19 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension PlanningWorksheet - Action ToggleActionMessage - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3909206013 - Control 3069508543 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3144460829">
-          <source>Specifies a code for an inventory location where the items that are being ordered will be registered.</source>
-          <target>Angiver en kode for den lagerlokation, hvor de bestilte varer skal registreres på.</target>
+        <trans-unit id="PageExtension 3909206013 - Control 2814799924 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3144460829">
+          <source>Specifies the bin where the items will be picked from or placed into.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PlanningWorksheet - Control Location Code04449 - Property ToolTip</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PlanningWorksheet - Control Bin Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3909206013 - Control 1151635659 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3144460829">
+          <source>Specifies a code for an inventory location where the items that are being ordered will be registered.</source>
+          <target>[NAB: SUGGESTION]Angiver en kode for den lagerlokation, hvor de bestilte varer skal registreres på.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PlanningWorksheet - Control Location Code1 - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 155881795 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 155881795">
           <source>Posted Invt. Shipments NotInUse</source>
@@ -13473,17 +13760,19 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesLineFactBox - Control ItemCalculatedAvailableDate - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3617415722 - Action 3569513906 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
-          <source>Deletes Sales Orders with atleast 1 delivery and marked for Backorder deletion.</source>
-          <target></target>
+        <trans-unit id="PageExtension 3617415722 - Action 850196228 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Overrides current shipping and billing details with values from the Sell-to fields.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesOrder - Action HandleSalesOrderDeletionAction - Property ToolTip</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesOrder - Action CopyFieldValuesToShippingAndBillingAction - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3617415722 - Action 3569513906 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
-          <source>Delete BackOrders (Norway)</source>
-          <target></target>
+        <trans-unit id="PageExtension 3617415722 - Action 850196228 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Copy Sell-to to Ship-to/Bill-to</source>
+          <target>[NAB: NOT TRANSLATED]</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesOrder - Action HandleSalesOrderDeletionAction - Property Caption</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesOrder - Action CopyFieldValuesToShippingAndBillingAction - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3617415722 - Control 50349433 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
           <source>Scanpan</source>
@@ -14123,11 +14412,12 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension WhseBasicRoleCenter - Control ScanpanCardPart - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3154024346 - Control 3557628719 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1647151174">
+        <trans-unit id="PageExtension 4221474097 - Control 3557628719 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1647151174">
           <source>Specifies the value of the Completely Picked field.</source>
-          <target>Specificerer værdien for komplet plukket.</target>
+          <target>[NAB: SUGGESTION]Specificerer værdien for komplet plukket.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WhseShipmentLineExtSC - Control Completely Picked1 - Property ToolTip</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WhseShipmentLine - Control Completely Picked1 - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2489573310 - Control 3114180407 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4284303991">
           <source>Specifies the quantity in pick instructions assigned to be picked for the warehouse shipment line.</source>
@@ -14140,6 +14430,13 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <target>Angiver, hvor stor en del af det samlede leveranceantal der er registreret som plukket.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension WhseShipmentSubformExtSC - Control Qty. Picked10389 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2489573310 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4284303991">
+          <source>Specifies the status of the warehouse shipment line.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WhseShipmentSubformExtSC - Control Status - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2410836292 - Action 2492381100 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1007119265">
           <source>Shortcuts SCANPAN</source>

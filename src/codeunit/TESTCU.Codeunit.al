@@ -13,10 +13,14 @@ codeunit 50004 "TEST_CU"
     end;
 
     var
+    BOMCostShares: page "BOM Cost Shares";
+    ItemCard: page "Item Card";
+
+    
     VareHouseShipmentLine: Record "Warehouse Shipment Line";
     PickWorksheet: page "Pick Worksheet";
 
-
+TransfeOrder: page "Transfer Order";
 
 
     #region Delete invoiced IIC Purchaseorders

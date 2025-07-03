@@ -3759,6 +3759,41 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CDOE-MailRecipient - Control Table - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 4167964919 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Campaign Comments</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CommentsFactBox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4167964919 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scanpan</source>
+          <target>[NAB: SUGGESTION]Scanpan</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CommentsFactBox - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Page 4167964919 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target>[NAB: SUGGESTION]General</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CommentsFactBox - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4167964919 - Control 2790486453 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the comment text.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CommentsFactBox - Control Comment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4167964919 - Control 3192175264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date of the comment.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CommentsFactBox - Control Date - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2834699717 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
           <source>New,Item,Barcode,Item Reference</source>
           <target>New,Item,Barcode,Item Reference</target>
@@ -4989,6 +5024,251 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
           <target>Single Item Image update</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Picture URL Dialog - Control Single Item Image update - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Purchase Receipt Lines</source>
+          <target>[NAB: SUGGESTION]Posted Purchase Receipt Lines</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scanpan</source>
+          <target>[NAB: SUGGESTION]Scanpan</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 779730061 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vendor name of the posted purchase receipt line.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control VendorName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 779730061 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Name</source>
+          <target>[NAB: SUGGESTION]Vendor Name</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control VendorName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 1339771079 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vendor number of the posted purchase receipt line.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control VendorNoFilter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 1339771079 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Filter</source>
+          <target>[NAB: SUGGESTION]Vendor Filter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control VendorNoFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 2814799924 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the bin where the items are picked or put away.</source>
+          <target>[NAB: SUGGESTION]Specifies the bin where the items are picked or put away.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Bin Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 3792369418 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the vendor who delivered the items.</source>
+          <target>[NAB: SUGGESTION]Specifies the name of the vendor who delivered the items.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Buy-from Vendor No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 2175856358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the container ID of the posted purchase receipt line.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Container ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 4198939294 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the currency that is used on the entry.</source>
+          <target>[NAB: SUGGESTION]Specifies the currency that is used on the entry.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Currency Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies either the name of or a description of the item or general ledger account.</source>
+          <target>[NAB: SUGGESTION]Specifies either the name of or a description of the item or general ledger account.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number of the posted purchase receipt line.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 3469770434 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date the items were expected.</source>
+          <target>[NAB: SUGGESTION]Specifies the date the items were expected.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Expected Receipt Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 633819257 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Gen. Bus. Posting Group field.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Gen. Bus. Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 2139693550 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Gen. Prod. Posting Group field.</source>
+          <target>[NAB: SUGGESTION]Specifies the value of the Gen. Prod. Posting Group field.</target>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Gen. Prod. Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 1037119892 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Item Category Code field.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Item Category Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 3320823955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the line number of the posted purchase receipt line.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Line No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the location code of the posted purchase receipt line.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the involved entry or record, according to the specified number series.</source>
+          <target>[NAB: SUGGESTION]Specifies the number of the involved entry or record, according to the specified number series.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 2632124822 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date when the related order was created.</source>
+          <target>[NAB: SUGGESTION]Specifies the date when the related order was created.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Order Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 176518433 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the line number of the order that created the entry.</source>
+          <target>[NAB: SUGGESTION]Specifies the line number of the order that created the entry.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Order Line No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 2202932243 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the line number of the order that created the entry.</source>
+          <target>[NAB: SUGGESTION]Specifies the line number of the order that created the entry.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Order No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 3941277175 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the vendor that you received the invoice from.</source>
+          <target>[NAB: SUGGESTION]Specifies the number of the vendor that you received the invoice from.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Pay-to Vendor No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 1623058472 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date when the item is planned to arrive in inventory. Forward calculation: planned receipt date = order date + vendor lead time (per the vendor calendar and rounded to the next working day in first the vendor calendar and then the location calendar). If no vendor calendar exists, then: planned receipt date = order date + vendor lead time (per the location calendar). Backward calculation: order date = planned receipt date - vendor lead time (per the vendor calendar and rounded to the previous working day in first the vendor calendar and then the location calendar). If no vendor calendar exists, then: order date = planned receipt date - vendor lead time (per the location calendar).</source>
+          <target>[NAB: SUGGESTION]Specifies the date when the item is planned to arrive in inventory. Forward calculation: planned receipt date = order date + vendor lead time (per the vendor calendar and rounded to the next working day in first the vendor calendar and then the location calendar). If no vendor calendar exists, then: planned receipt date = order date + vendor lead time (per the location calendar). Backward calculation: order date = planned receipt date - vendor lead time (per the vendor calendar and rounded to the previous working day in first the vendor calendar and then the location calendar). If no vendor calendar exists, then: order date = planned receipt date - vendor lead time (per the location calendar).</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Planned Receipt Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Posting Date field.</source>
+          <target>[NAB: SUGGESTION]Specifies the value of the Posting Date field.</target>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 429198581 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date that the vendor has promised to deliver the order.</source>
+          <target>[NAB: SUGGESTION]Specifies the date that the vendor has promised to deliver the order.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Promised Receipt Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 37048319 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the promised receipt date from the receipt header.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Promised Receipt Date (Header) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 37048319 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Promised Receipt Date (Header)</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Promised Receipt Date (Header) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of units of the item specified on the line.</source>
+          <target>[NAB: SUGGESTION]Specifies the number of units of the item specified on the line.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 1602222300 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date that you want the vendor to deliver to the ship-to address. The value in the field is used to calculate the latest date you can order the items to have them delivered on the requested receipt date. If you do not need delivery on a specific date, you can leave the field blank.</source>
+          <target>[NAB: SUGGESTION]Specifies the date that you want the vendor to deliver to the ship-to address. The value in the field is used to calculate the latest date you can order the items to have them delivered on the requested receipt date. If you do not need delivery on a specific date, you can leave the field blank.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Requested Receipt Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the line type.</source>
+          <target>[NAB: SUGGESTION]Specifies the line type.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 381961415 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the cost of one unit of the item or resource on the line.</source>
+          <target>[NAB: SUGGESTION]Specifies the cost of one unit of the item or resource on the line.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Unit Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 68186622 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the cost, in LCY, of one unit of the item or resource on the line.</source>
+          <target>[NAB: SUGGESTION]Specifies the cost, in LCY, of one unit of the item or resource on the line.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Unit Cost (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 2385270358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted.</source>
+          <target>[NAB: SUGGESTION]Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Unit of Measure Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 2903269170 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number that the vendor uses for this item.</source>
+          <target>[NAB: SUGGESTION]Specifies the number that the vendor uses for this item.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Vendor Item No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2279884345 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Production BOM Line</source>
@@ -7043,6 +7323,48 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
           <target>Specifies the variant of the item on the line.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ProdLines - Control Variant Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 872734200 - Action 1314617678 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Switch between ascending and descending sort order for due date.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ProdLines - Action ToggleDueDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 872734200 - Action 1314617678 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Toggle Due Date</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ProdLines - Action ToggleDueDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872734200 - Action 3620430611 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Switch between ascending and descending sort order for ending date.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ProdLines - Action ToggleEndingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 872734200 - Action 3620430611 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Toggle Ending Date</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ProdLines - Action ToggleEndingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872734200 - Action 246724602 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Switch between ascending and descending sort order for starting date.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ProdLines - Action ToggleStartingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 872734200 - Action 246724602 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Toggle Starting Date</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ProdLines - Action ToggleStartingDate - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1022637636 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Production Controlling Lines</source>
@@ -12637,11 +12959,19 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension PlanningWorksheet - Action ToggleActionMessage - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3909206013 - Control 3069508543 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3144460829">
-          <source>Specifies a code for an inventory location where the items that are being ordered will be registered.</source>
-          <target>Specifies a code for an inventory location where the items that are being ordered will be registered.</target>
+        <trans-unit id="PageExtension 3909206013 - Control 2814799924 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3144460829">
+          <source>Specifies the bin where the items will be picked from or placed into.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PlanningWorksheet - Control Location Code04449 - Property ToolTip</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PlanningWorksheet - Control Bin Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3909206013 - Control 1151635659 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3144460829">
+          <source>Specifies a code for an inventory location where the items that are being ordered will be registered.</source>
+          <target>[NAB: SUGGESTION]Specifies a code for an inventory location where the items that are being ordered will be registered.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PlanningWorksheet - Control Location Code1 - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 155881795 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 155881795">
           <source>Posted Invt. Shipments NotInUse</source>
@@ -13425,17 +13755,19 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesLineFactBox - Control ItemCalculatedAvailableDate - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3617415722 - Action 3569513906 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
-          <source>Deletes Sales Orders with atleast 1 delivery and marked for Backorder deletion.</source>
-          <target>Deletes Sales Orders with atleast 1 delivery and marked for Backorder deletion.</target>
+        <trans-unit id="PageExtension 3617415722 - Action 850196228 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Overrides current shipping and billing details with values from the Sell-to fields.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesOrder - Action HandleSalesOrderDeletionAction - Property ToolTip</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesOrder - Action CopyFieldValuesToShippingAndBillingAction - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3617415722 - Action 3569513906 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
-          <source>Delete BackOrders (Norway)</source>
-          <target>Delete BackOrders (Norway)</target>
+        <trans-unit id="PageExtension 3617415722 - Action 850196228 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Copy Sell-to to Ship-to/Bill-to</source>
+          <target>[NAB: NOT TRANSLATED]</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesOrder - Action HandleSalesOrderDeletionAction - Property Caption</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesOrder - Action CopyFieldValuesToShippingAndBillingAction - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3617415722 - Control 50349433 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
           <source>Scanpan</source>
@@ -14076,11 +14408,12 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension WhseBasicRoleCenter - Control ScanpanCardPart - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3154024346 - Control 3557628719 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1647151174">
+        <trans-unit id="PageExtension 4221474097 - Control 3557628719 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1647151174">
           <source>Specifies the value of the Completely Picked field.</source>
-          <target>Specifies the value of the Completely Picked field.</target>
+          <target>[NAB: SUGGESTION]Specifies the value of the Completely Picked field.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WhseShipmentLineExtSC - Control Completely Picked1 - Property ToolTip</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WhseShipmentLine - Control Completely Picked1 - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2489573310 - Control 3114180407 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4284303991">
           <source>Specifies the quantity in pick instructions assigned to be picked for the warehouse shipment line.</source>
@@ -14093,6 +14426,13 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
           <target>Specifies how many of the total shipment quantity have been registered as picked.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension WhseShipmentSubformExtSC - Control Qty. Picked10389 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2489573310 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4284303991">
+          <source>Specifies the status of the warehouse shipment line.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WhseShipmentSubformExtSC - Control Status - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2410836292 - Action 2492381100 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1007119265">
           <source>Shortcuts SCANPAN</source>
