@@ -23,6 +23,8 @@ codeunit 50004 "TEST_CU"
 TransfeOrder: page "Transfer Order";
 
 
+    DimensionValue: Record "Dimension Value";
+
     #region Delete invoiced IIC Purchaseorders
     /// <summary>
     /// DeleteFullyInvoicedPurchaseOrders.
