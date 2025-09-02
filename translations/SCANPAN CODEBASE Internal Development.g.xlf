@@ -4048,6 +4048,76 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page FieldPage - Control No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 716810794 - Control 1409824262 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Gen. Prod. Posting Group field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control GenProdPostingGroupFilter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Control 1409824262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gen. Prod. Posting Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control GenProdPostingGroupFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Control 1071527942 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Product Line Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control ProdLineCodeFilter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Control 1071527942 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Product Line Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control ProdLineCodeFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies what you are selling.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Control 2105307182 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the total quantity of the item that is currently in inventory at all locations.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control Inventory - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 401589245 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Document No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 401589245 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Entry No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 401589245 - Control 149522872 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Entry Type field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Entry Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 401589245 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Location Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 401589245 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Posting Date field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 401589245 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Quantity field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 401589245 - Control 2367056265 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Remaining Quantity field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Remaining Quantity - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2067818462 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Inter Company Infomation Tracking</source>
           <note from="Developer" annotates="general" priority="2"></note>
