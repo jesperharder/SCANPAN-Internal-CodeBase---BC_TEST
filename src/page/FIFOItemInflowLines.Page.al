@@ -45,24 +45,44 @@ page 50072 "FIFO Item Inflow Lines"
                 {
                     ToolTip = 'Specifies the value of the Location Code field.';
                 }
+                field("All Bin Codes"; AllBinCodes)
+                {
+                    Caption = 'All Bin Codes';
+                    ApplicationArea = All;
+                    ToolTip = 'Lists all bin codes with contents for this item and location.';
+                }
             }
         }
     }
-
-    procedure SetFilters(GenProdGrp: Code[20]; ProdLine: Code[20])
     var
-        Item: Record Item;
-    begin
-        Item.Reset();
-        if GenProdGrp <> '' then
-            Item.SetRange("Gen. Prod. Posting Group", GenProdGrp);
-        if ProdLine <> '' then
-            Item.SetRange("Product Line Code", ProdLine);
+        BinContent: Record "Bin Content";
+        AllBinCodes: Text[250]; // You may need a longer length if many bins
 
-        if Item.GetFilters() <> '' then
-            Rec.SetFilter("Item No.", Item.GetFilter("No."))
+    trigger OnAfterGetRecord()
+    begin
+        AllBinCodes := '';
+        BinContent.Reset();
+        BinContent.SetRange("Location Code", Rec."Location Code");
+        BinContent.SetRange("Item No.", Rec."Item No.");
+        //BinContent.SetRange("Variant Code", Rec."Variant Code");
+        if BinContent.FindSet() then
+            repeat
+                if BinContent.Quantity <> 0 then begin
+                    if AllBinCodes <> '' then
+                        AllBinCodes += ', ';
+                    //AllBinCodes += BinContent."Bin Code";
+                    AllBinCodes += BinContent."Bin Code" + ' (' + Format(BinContent.Quantity) + ')';
+
+                end;
+            until BinContent.Next() = 0;
+    end;
+
+    procedure SetFilters(Location: Code[20])
+    begin
+        if Location <> '' then
+            Rec.SetRange("Location Code", Location)
         else
-            Rec.SetRange("Item No.");
+            Rec.SetRange("Location Code");
 
         CurrPage.Update(false);
     end;
