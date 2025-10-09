@@ -2018,6 +2018,56 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ShippingAgentDistribution - Field Shipping Agent Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2593361517 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Perfion Image Buffer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SPN Perfion Image Buffer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2593361517 - Field 320775665 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Image</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SPN Perfion Image Buffer - Field Image - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2593361517 - Field 3943846140 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Image No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SPN Perfion Image Buffer - Field Image No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2593361517 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SPN Perfion Image Buffer - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3822491485 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Perfion Store</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SPN Perfion Store - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3822491485 - Field 2954291962 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Image 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SPN Perfion Store - Field Image1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3822491485 - Field 1041202111 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Image 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SPN Perfion Store - Field Image2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3822491485 - Field 1678898728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Image 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SPN Perfion Store - Field Image3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3822491485 - Field 572414517 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Image 4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SPN Perfion Store - Field Image4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3822491485 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SPN Perfion Store - Field Item No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 32171465 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>User Save Settings</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2813,45 +2863,170 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Group - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 686625887 - Control 1245516462 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the BOM Unit of Measure Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control BOM Unit of Measure Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 686625887 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 686625887 - Control 2159960283 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Gen. Posting Group field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control GeneralPostingGroup - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 686625887 - Control 2159960283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Gen. Posting Group</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control GeneralPostingGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 686625887 - Control 316178846 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Gross Weight field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control GrossWeight - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 316178846 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Gross Weight</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control GrossWeight - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 686625887 - Control 2200046723 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Indentation field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Indentation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 686625887 - Control 331094305 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Net Weight field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control NetWeight - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 686625887 - Control 331094305 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Net Weight</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control NetWeight - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 686625887 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 686625887 - Control 2013433829 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Qty. per BOM Line field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Qty. per BOM Line - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 686625887 - Control 3221928107 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Qty. per Parent field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Qty. per Parent - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 686625887 - Control 2052971837 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Qty. per Top Item field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Qty. per Top Item - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 686625887 - Control 3500504311 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Replenishment System field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Replenishment System - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 686625887 - Control 856716861 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Rolled-up Capacity Cost field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Rolled-up Capacity Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 686625887 - Control 1953313348 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Rolled-up Capacity Ovhd. Cost field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Rolled-up Capacity Ovhd. Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 686625887 - Control 3209146096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Rolled-up Material Cost field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Rolled-up Material Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 686625887 - Control 3975523020 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Rolled-up Mfg. Ovhd Cost field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Rolled-up Mfg. Ovhd Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 686625887 - Control 3024818368 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Rolled-up Scrap Cost field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Rolled-up Scrap Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 686625887 - Control 4235170772 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Rolled-up Subcontracted Cost field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Rolled-up Subcontracted Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 686625887 - Control 1605442545 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Top Item field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control TopItemNo - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 1605442545 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Top Item</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control TopItemNo - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 686625887 - Control 3996842083 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Cost field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Total Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 686625887 - Control 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Type field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 686625887 - Control 2385270358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Unit of Measure Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Unit of Measure Code - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 686625887 - Control 828292189 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Option</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Option - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 686625887 - Control 1553686271 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Item Filter field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control ItemFilter - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 1553686271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item Filter</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control ItemFilter - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 686625887 - Action 389008550 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Show Warnings action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Action Show Warnings - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 686625887 - Action 389008550 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show Warnings</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Action Show Warnings - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 686625887 - Action 118428390 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Update Page action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Action UpdatePage - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 686625887 - Action 118428390 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update Page</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Action UpdatePage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 686625887 - Action 994529672 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the BOM Cost Share Distribution action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Action BOM Cost Share Distribution - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Action 994529672 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>BOM Cost Share Distribution</source>
@@ -7998,45 +8173,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ShipAgentDistribution - Action NewEntry - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3978506644 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Perfion Images</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image CardPart - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 231491163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Perfion Image Viewer</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 231491163 - Control 1722416735 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Image 1 URL</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Control Image1Url - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 231491163 - Control 2296970082 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Image 2 URL</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Control Image2Url - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 231491163 - Control 2702574465 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Image 3 URL</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Control Image3Url - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 231491163 - Control 1713457860 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Image 4 URL</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Control Image4Url - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 231491163 - Control 332802016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 231491163 - Control 568743302 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enter the item number to retrieve images from Perfion.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Control ItemNo - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 231491163 - Control 332802016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Item No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Control ItemNo - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Control Item No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 231491163 - Action 2570128550 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Load Images</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Action LoadImages - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 231491163 - Action 757077646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nyt søgning</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Action NewSearch - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1928153799 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Testpage</source>
@@ -9992,6 +10152,31 @@
           <source>Specifies the number of the table containing the changed field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ChangeLogEntries - Control Table No.44238 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 296798300 - View 1402358198 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 6855404">
+          <source>Debitor - Spærret</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ChangeLogEntries - View Debitor - Spærret - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 296798300 - View 3391376520 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 6855404">
+          <source>Godkendelsespost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ChangeLogEntries - View Godkendelsespost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 296798300 - View 1833948297 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 6855404">
+          <source>Kreditor - Bankfelter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ChangeLogEntries - View Kreditor - Bankfelter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 296798300 - View 86329163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 6855404">
+          <source>Opgavekø</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ChangeLogEntries - View Opgavekø - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 296798300 - View 3108888173 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 6855404">
+          <source>Ændringslog indstillinger</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ChangeLogEntries - View Ændringslog indstillinger - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1464534165 - Control 2138714213 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 105737358">
           <source>Specifies the value of the Channel Type field.</source>
