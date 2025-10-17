@@ -1,36 +1,69 @@
 page 50073 "SPN Perfion Image Viewer"
 {
-    PageType = Card;
-    SourceTable = "SPN Perfion Store"; // <-- Tilføj denne linje
     ApplicationArea = All;
-    UsageCategory = Administration;
     Caption = 'Perfion Image Viewer';
+    PageType = Card;
+    SourceTable = "SPN Perfion Store";
+    SourceTableTemporary = true;
+    UsageCategory = Administration;
 
     layout
     {
         area(content)
         {
-            group(Product)
+            group(Identification)
             {
+                Caption = 'Product';
                 field("Item No."; "Item No.")
                 {
                     ApplicationArea = All;
                     Editable = true;
-                    ToolTip = 'Enter the item number to retrieve images from Perfion.';
+                    ToolTip = 'Enter or select the item number to retrieve images from Perfion.';
+
+                    trigger OnValidate()
+                    begin
+                        LoadImagesForCurrentItem();
+                        CurrPage.Update(false);
+                    end;
                 }
             }
 
-            group(Images)
+            group(ImageGrid)
             {
+                ShowCaption = false;
+
                 group(Row1)
                 {
-                    field(Image1; Image1) { ApplicationArea = All; ShowCaption = false; }
-                    field(Image2; Image2) { ApplicationArea = All; ShowCaption = false; }
+                    ShowCaption = false;
+                    field(Image1; Image1)
+                    {
+                        ApplicationArea = All;
+                        ShowCaption = false;
+                        Editable = false;
+                    }
+                    field(Image2; Image2)
+                    {
+                        ApplicationArea = All;
+                        ShowCaption = false;
+                        Editable = false;
+                    }
                 }
+
                 group(Row2)
                 {
-                    field(Image3; Image3) { ApplicationArea = All; ShowCaption = false; }
-                    field(Image4; Image4) { ApplicationArea = All; ShowCaption = false; }
+                    ShowCaption = false;
+                    field(Image3; Image3)
+                    {
+                        ApplicationArea = All;
+                        ShowCaption = false;
+                        Editable = false;
+                    }
+                    field(Image4; Image4)
+                    {
+                        ApplicationArea = All;
+                        ShowCaption = false;
+                        Editable = false;
+                    }
                 }
             }
         }
@@ -40,57 +73,123 @@ page 50073 "SPN Perfion Image Viewer"
     {
         area(processing)
         {
-            action(NewSearch)
+            action(ResetSearch)
             {
                 ApplicationArea = All;
-                Caption = 'Nyt søgning';
+                Caption = 'Clear';
+                Image = Clear;
+                ToolTip = 'Clear the current item number and remove the downloaded images.';
+
                 trigger OnAction()
                 begin
-                    Rec.DeleteAll();
-                    Rec.Init();
-                    Rec.Insert();
-                    CurrPage.Update();
+                    ResetCurrentRecord();
+                    CurrPage.Update(false);
                 end;
             }
-            action(LoadImages)
+
+            action(RefreshImages)
             {
                 ApplicationArea = All;
                 Caption = 'Load Images';
+                Image = Refresh;
+                ToolTip = 'Download the four latest images from Perfion for the current item.';
+
                 trigger OnAction()
                 begin
-                    LoadImageURLs(Rec);
-                    CurrPage.Update();
+                    LoadImagesForCurrentItem();
+                    CurrPage.Update(false);
                 end;
             }
         }
     }
 
     var
-        Helper: Codeunit "SPN Perfion Image Helper";
+        PerfionHelper: Codeunit "SPN Perfion Image Helper";
 
-    local procedure LoadImageURLs(var Rec: Record "SPN Perfion Store")
-    var
-        PIM: Codeunit "PIMimages";
-        RawXml: Text;
-        EncodedXml: Text;
-        DecodedXml: Text;
-        Guid: Text;
-        Url: Text;
-        I: Integer;
-        InStr: InStream;
+    trigger OnOpenPage()
     begin
-        // Nulstil billeder
+        ResetCurrentRecord();
+    end;
+
+    trigger OnAfterGetCurrRecord()
+    begin
+        Rec.CalcFields(Image1, Image2, Image3, Image4);
+    end;
+
+    local procedure ResetCurrentRecord()
+    begin
+        Rec.DeleteAll();
+        Rec.Init();
+        Rec.Insert();
+    end;
+
+    local procedure LoadImagesForCurrentItem()
+    var
+        PerfionImages: Codeunit "PIMimages";
+        ResponseXml: Text;
+        EncodedResult: Text;
+        PlainXml: Text;
+        ImageGuid: Text;
+        ImageUrl: Text;
+        StreamIn: InStream;
+        Index: Integer;
+    begin
+        ClearImageMedia();
+
+        if Rec."Item No." = '' then begin
+            Rec.Modify(true);
+            exit;
+        end;
+
+        ResponseXml := PerfionImages.MakeRequest(
+            'http://cdn.scanpan.dk/Perfion/GetData.asmx',
+            BuildQueryPayload(Rec."Item No."));
+
+        EncodedResult := ExtractBetween(ResponseXml, '<ExecuteQueryResult>', '</ExecuteQueryResult>');
+        if EncodedResult = '' then begin
+            Rec.Modify(true);
+            exit;
+        end;
+
+        PlainXml := HtmlDecode(EncodedResult);
+
+        for Index := 1 to 4 do begin
+            ImageGuid := GetElementInnerText(PlainXml, 'Produktbillede' + Format(Index));
+            if IsValidGuid(ImageGuid) then begin
+                ImageUrl := PerfionImages.formatGUIDtoURL(ImageGuid, 600, 600);
+                if PerfionHelper.DownloadImageAsStream(ImageUrl, StreamIn) then
+                    ImportImage(Index, StreamIn);
+            end;
+        end;
+
+        Rec.Modify(true);
+    end;
+
+    local procedure ClearImageMedia()
+    begin
         Clear(Rec.Image1);
         Clear(Rec.Image2);
         Clear(Rec.Image3);
         Clear(Rec.Image4);
+    end;
 
-        if Rec."Item No." = '' then
-            exit;
+    local procedure ImportImage(ImageIndex: Integer; var SourceStream: InStream)
+    begin
+        case ImageIndex of
+            1:
+                Rec.Image1.ImportStream(SourceStream, 'Image1', 'image/jpeg', 'jpg');
+            2:
+                Rec.Image2.ImportStream(SourceStream, 'Image2', 'image/jpeg', 'jpg');
+            3:
+                Rec.Image3.ImportStream(SourceStream, 'Image3', 'image/jpeg', 'jpg');
+            4:
+                Rec.Image4.ImportStream(SourceStream, 'Image4', 'image/jpeg', 'jpg');
+        end;
+    end;
 
-        // Kald til Perfion
-        RawXml := PIM.MakeRequest(
-            'http://cdn.scanpan.dk/Perfion/GetData.asmx',
+    local procedure BuildQueryPayload(ItemNo: Code[20]): Text
+    begin
+        exit(
             '<Query>' +
                 '<Select languages="EN">' +
                     '<Feature id="Produktbillede1" />' +
@@ -99,37 +198,10 @@ page 50073 "SPN Perfion Image Viewer"
                     '<Feature id="Produktbillede4" />' +
                 '</Select>' +
                 '<From id="Product" />' +
-                '<Where><Clause id="Varenummer" operator="Match" value="' + Rec."Item No." + '"/></Where>' +
-            '</Query>'
-        );
-
-        // Træk ExecuteQueryResult
-        EncodedXml := ExtractBetween(RawXml, '<ExecuteQueryResult>', '</ExecuteQueryResult>');
-        if EncodedXml = '' then
-            exit;
-
-        // Decode HTML
-        DecodedXml := HtmlDecode(EncodedXml);
-
-        for I := 1 to 4 do begin
-            Guid := GetElementInnerText(DecodedXml, 'Produktbillede' + Format(I));
-            if StrLen(Guid) = 36 then begin
-                Url := PIM.formatGUIDtoURL(Guid, 600, 600);
-                if Helper.DownloadImageAsStream(Url, InStr) then begin
-                    case I of
-                        1: Rec.Image1.ImportStream(InStr, 'Image1', 'image/jpeg', 'jpg');
-                        2: Rec.Image2.ImportStream(InStr, 'Image2', 'image/jpeg', 'jpg');
-                        3: Rec.Image3.ImportStream(InStr, 'Image3', 'image/jpeg', 'jpg');
-                        4: Rec.Image4.ImportStream(InStr, 'Image4', 'image/jpeg', 'jpg');
-                    end;
-                end else begin
-                    Message('Kunne ikke hente billede fra %1', Url);
-                end;
-            end;
-        end;
+                '<Where><Clause id="Varenummer" operator="Match" value="' + ItemNo + '"/></Where>' +
+            '</Query>');
     end;
 
-    /// HTML decode
     local procedure HtmlDecode(Value: Text): Text
     begin
         Value := ReplaceAll(Value, '&lt;', '<');
@@ -138,89 +210,81 @@ page 50073 "SPN Perfion Image Viewer"
         exit(Value);
     end;
 
-    /// ReplaceAll helper
     local procedure ReplaceAll(Input: Text; FindWhat: Text; ReplaceWith: Text): Text
     var
-        R: Text;
-        p: Integer;
-        L: Integer;
-        RightLen: Integer;
+        Result: Text;
+        Position: Integer;
+        PatternLength: Integer;
+        RemainingLength: Integer;
     begin
-        R := Input;
-        L := StrLen(FindWhat);
-        if (L = 0) or (R = '') then
-            exit(R);
+        Result := Input;
+        PatternLength := StrLen(FindWhat);
 
-        p := StrPos(R, FindWhat);
-        while p > 0 do begin
-            RightLen := StrLen(R) - (p + L) + 1;
-            R := CopyStr(R, 1, p - 1) + ReplaceWith + CopyStr(R, p + L, RightLen);
-            p := StrPos(R, FindWhat);
+        if (PatternLength = 0) or (Result = '') then
+            exit(Result);
+
+        Position := StrPos(Result, FindWhat);
+        while Position > 0 do begin
+            RemainingLength := StrLen(Result) - (Position + PatternLength) + 1;
+            Result := CopyStr(Result, 1, Position - 1) + ReplaceWith + CopyStr(Result, Position + PatternLength, RemainingLength);
+            Position := StrPos(Result, FindWhat);
         end;
-        exit(R);
+
+        exit(Result);
     end;
 
-    /// Extract text between tags
-    local procedure ExtractBetween(S: Text; StartTag: Text; EndTag: Text): Text
+    local procedure ExtractBetween(Source: Text; StartTag: Text; EndTag: Text): Text
     var
-        p1: Integer;
-        p2: Integer;
-        startAfter: Integer;
-        len: Integer;
+        StartPos: Integer;
+        EndPos: Integer;
+        StartAfter: Integer;
+        ContentLength: Integer;
     begin
-        p1 := StrPos(S, StartTag);
-        if p1 = 0 then
+        StartPos := StrPos(Source, StartTag);
+        if StartPos = 0 then
             exit('');
-        startAfter := p1 + StrLen(StartTag);
-        p2 := StrPos(CopyStr(S, startAfter, StrLen(S) - startAfter + 1), EndTag);
-        if p2 = 0 then
+
+        StartAfter := StartPos + StrLen(StartTag);
+        EndPos := StrPos(CopyStr(Source, StartAfter, StrLen(Source) - StartAfter + 1), EndTag);
+        if EndPos = 0 then
             exit('');
-        p2 := startAfter + p2 - 1;
-        len := p2 - startAfter;
-        exit(CopyStr(S, startAfter, len));
+
+        EndPos := StartAfter + EndPos - 1;
+        ContentLength := EndPos - StartAfter;
+        exit(CopyStr(Source, StartAfter, ContentLength));
     end;
 
-    /// Get inner text of first element <TagName>...</TagName>
     local procedure GetElementInnerText(Xml: Text; TagName: Text): Text
     var
-        Search: Text;
         StartTagPrefix: Text;
         CloseTag: Text;
-        pStart: Integer;
-        subAfterStart: Text;
-        pGT: Integer;
-        contentStartPos: Integer;
-        restAfterOpen: Text;
-        pClose: Integer;
-        len: Integer;
+        StartPos: Integer;
+        AfterStart: Text;
+        ClosingIndex: Integer;
+        ClosePos: Integer;
     begin
-        Search := Xml;
         StartTagPrefix := '<' + TagName;
         CloseTag := '</' + TagName + '>';
 
-        pStart := StrPos(Search, StartTagPrefix);
-        if pStart = 0 then
+        StartPos := StrPos(Xml, StartTagPrefix);
+        if StartPos = 0 then
             exit('');
 
-        subAfterStart := CopyStr(Search, pStart, StrLen(Search) - pStart + 1);
-        pGT := StrPos(subAfterStart, '>');
-        if pGT = 0 then
+        AfterStart := CopyStr(Xml, StartPos, StrLen(Xml) - StartPos + 1);
+        ClosingIndex := StrPos(AfterStart, '>');
+        if ClosingIndex = 0 then
             exit('');
 
-        contentStartPos := pStart + pGT - 1;
-        restAfterOpen := CopyStr(Search, contentStartPos + 1, StrLen(Search) - contentStartPos);
-        pClose := StrPos(restAfterOpen, CloseTag);
-        if pClose = 0 then
+        AfterStart := CopyStr(Xml, StartPos + ClosingIndex, StrLen(Xml) - (StartPos + ClosingIndex) + 1);
+        ClosePos := StrPos(AfterStart, CloseTag);
+        if ClosePos = 0 then
             exit('');
 
-        len := pClose - 1;
-        exit(CopyStr(Search, contentStartPos + 1, len));
+        exit(CopyStr(AfterStart, 1, ClosePos - 1));
     end;
 
-    trigger OnOpenPage()
+    local procedure IsValidGuid(Value: Text): Boolean
     begin
-        Rec.DeleteAll();
-        Rec.Init();
-        Rec.Insert();
+        exit(StrLen(Value) = 36);
     end;
 }

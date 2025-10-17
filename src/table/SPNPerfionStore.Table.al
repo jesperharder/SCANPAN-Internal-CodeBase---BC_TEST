@@ -31,6 +31,8 @@ table 50031 "SPN Perfion Store"
             Caption = 'Image 4';
             DataClassification = CustomerContent;
         }
+
+
     }
 
     keys

@@ -8183,20 +8183,35 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 231491163 - Control 4000315310 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Product</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Control Identification - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 231491163 - Control 568743302 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Enter the item number to retrieve images from Perfion.</source>
+          <source>Enter or select the item number to retrieve images from Perfion.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Control Item No. - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 231491163 - Action 2570128550 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 231491163 - Action 4143501315 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download the four latest images from Perfion for the current item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Action RefreshImages - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 231491163 - Action 4143501315 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Load Images</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Action LoadImages - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Action RefreshImages - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 231491163 - Action 757077646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Nyt søgning</source>
+        <trans-unit id="Page 231491163 - Action 685773285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clear the current item number and remove the downloaded images.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Action NewSearch - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Action ResetSearch - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 231491163 - Action 685773285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clear</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Action ResetSearch - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1928153799 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Testpage</source>
