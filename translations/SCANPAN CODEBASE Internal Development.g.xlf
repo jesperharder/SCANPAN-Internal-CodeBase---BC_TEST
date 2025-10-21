@@ -1458,15 +1458,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SalesComparisonData - Field Last Update - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1138399947 - Field 1742936364 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1138399947 - Field 1536402869 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Last YTD Sales EKSTERN</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table SalesComparisonData - Field Last Year YTD Sales Amount EKSTERN - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SalesComparisonData - Field Last YTD Sales EKSTERN - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1138399947 - Field 1038663902 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1138399947 - Field 3906086283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Last YTD Sales INTERN</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table SalesComparisonData - Field Last Year YTD Sales Amount INTERN - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SalesComparisonData - Field Last YTD Sales INTERN - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1138399947 - Field 4106045576 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>EKSTERN Orders</source>
@@ -1493,10 +1493,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SalesComparisonData - Field Total Budget Amount - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1138399947 - Field 582800454 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1138399947 - Field 3436289483 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total Last YTD Sales</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table SalesComparisonData - Field Total Last Year YTD Sales Amount - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SalesComparisonData - Field Total Last YTD Sales - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1138399947 - Field 2573850905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total YTD Sales</source>
@@ -2017,56 +2017,6 @@
           <source>Shipping Agent Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ShippingAgentDistribution - Field Shipping Agent Code - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 2593361517 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Perfion Image Buffer</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table SPN Perfion Image Buffer - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 2593361517 - Field 320775665 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Image</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table SPN Perfion Image Buffer - Field Image - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 2593361517 - Field 3943846140 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Image No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table SPN Perfion Image Buffer - Field Image No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 2593361517 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Item No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table SPN Perfion Image Buffer - Field Item No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3822491485 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Perfion Store</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table SPN Perfion Store - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3822491485 - Field 2954291962 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Image 1</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table SPN Perfion Store - Field Image1 - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3822491485 - Field 1041202111 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Image 2</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table SPN Perfion Store - Field Image2 - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3822491485 - Field 1678898728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Image 3</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table SPN Perfion Store - Field Image3 - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3822491485 - Field 572414517 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Image 4</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table SPN Perfion Store - Field Image4 - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3822491485 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Item No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table SPN Perfion Store - Field Item No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 32171465 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>User Save Settings</source>
@@ -8173,46 +8123,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ShipAgentDistribution - Action NewEntry - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3978506644 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Perfion Images</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image CardPart - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 231491163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Perfion Image Viewer</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 231491163 - Control 4000315310 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Product</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Control Identification - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 231491163 - Control 568743302 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Enter or select the item number to retrieve images from Perfion.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Control Item No. - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 231491163 - Action 4143501315 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Download the four latest images from Perfion for the current item.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Action RefreshImages - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 231491163 - Action 4143501315 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Load Images</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Action RefreshImages - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 231491163 - Action 685773285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Clear the current item number and remove the downloaded images.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Action ResetSearch - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 231491163 - Action 685773285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Clear</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SPN Perfion Image Viewer - Action ResetSearch - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 1928153799 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Testpage</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9177,6 +9087,56 @@
           <source>Design</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report DebitorAddress - Control ForNavOpenDesigner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Empty Requisition Item Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scanpan,Requisition,Worksheet,Delete,Empty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - NamedType 967897297" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set a filter on Journal Batch Name before running the report.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - NamedType BatchFilterRequiredLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - NamedType 2390104563" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to delete requisition worksheet lines with Type Item and blank No.?\\Template: %1\\Batch: %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - NamedType ConfirmDeleteLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - NamedType 1167328783" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 requisition worksheet line(s) were deleted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - NamedType DeletedCountMsgLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - NamedType 84279598" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This report deletes requisition worksheet lines where the Type is Item and the No. field is blank. Set Worksheet Template Name and Journal Batch Name filters before you run it.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - NamedType InstructionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - NamedType 1666229926" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No requisition worksheet lines with Type Item and blank No. were found for the specified filters.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - NamedType NothingDeletedLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - NamedType 790239133" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set a filter on Worksheet Template Name before running the report.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - NamedType TemplateFilterRequiredLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - Control 419426744 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - Control Information - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - Control 201881077 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Instructions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - Control Instructions - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3587925886 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Employee Sales</source>
@@ -11687,6 +11647,21 @@
           <source>Scanpan Calculate Plan</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ReqWorksheetExt - Action CalculatePlanScanpan - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2272349891 - Action 1665020056 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2459894850">
+          <source>Delete requisition worksheet lines where the Type is Item and the No. field is blank.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ReqWorksheetExt - Action DeleteEmptyItemLines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2272349891 - Action 1665020056 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2459894850">
+          <source>Delete Empty Item Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ReqWorksheetExt - Action DeleteEmptyItemLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2272349891 - Action 1665020056 - Method 1377591017 - NamedType 765810335" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2272349891">
+          <source>No requisition worksheet lines with Type Item and blank No. exist for the current worksheet.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ReqWorksheetExt - Action DeleteEmptyItemLines - Method OnAction - NamedType NothingToDeleteLbl</note>
         </trans-unit>
         <trans-unit id="PageExtension 2124459994 - Control 1147858743 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2124459994">
           <source>Specifies the status of this routing.</source>

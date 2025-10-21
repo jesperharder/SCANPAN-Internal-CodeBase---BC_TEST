@@ -11,8 +11,8 @@
             "environmentType": "OnPrem",
             "server": "http://bc.scanpan.dk",
                
-            "startupObjectId": 50073,
-            "startupObjectType": "Page",
+            //"startupObjectId": 50073,
+            //"startupObjectType": "Page",
             
             "launchBrowser": true,
             
