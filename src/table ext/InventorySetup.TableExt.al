@@ -8,7 +8,7 @@
 /// Version list
 /// 2022.12             Jesper Harder       0193        Added modifications
 /// 2023.07.23          Jesper Harder       042     Salesprice based on PurchasePrice Markup
-/// 
+/// 2025.10             Jesper Harder       116.1       SPN SKU Std. Cost Worksheet – create draft from locked SKUs implement (preserve fixed costs)
 /// </remarks>
 tableextension 50001 "InventorySetup" extends "Inventory Setup"
 {
@@ -34,6 +34,14 @@ tableextension 50001 "InventorySetup" extends "Inventory Setup"
         {
             Caption = 'Salesprice Purchase Markup pct';
         }
+
+        // 0184/NAV Std.Cost Guard
+        field(50008; "Enable Std. Cost Guard"; Boolean)
+        {
+            Caption = 'Enable Std. Cost Guard';
+            DataClassification = CustomerContent;
+        }
+
 
 
     }

@@ -2018,6 +2018,111 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ShippingAgentDistribution - Field Shipping Agent Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2941624652 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SPN SKU Std. Cost Worksheet</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StdCostWkshHeader - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2941624652 - Field 2570673311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created At</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StdCostWkshHeader - Field Created At - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2941624652 - Field 2369664869 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created By</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StdCostWkshHeader - Field Created By - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2941624652 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StdCostWkshHeader - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2941624652 - Field 2978033237 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Implemented At</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StdCostWkshHeader - Field Implemented At - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2941624652 - Field 3001379535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Implemented By</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StdCostWkshHeader - Field Implemented By - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2941624652 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StdCostWkshHeader - Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2941624652 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StdCostWkshHeader - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3610957427 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SPN SKU Std. Cost Worksheet Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StdCostWkshLine - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3610957427 - Field 1808925963 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Current Standard Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StdCostWkshLine - Field Current Standard Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3610957427 - Field 4106637098 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Implemented</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StdCostWkshLine - Field Implemented - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3610957427 - Field 2978033237 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Implemented At</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StdCostWkshLine - Field Implemented At - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3610957427 - Field 3001379535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Implemented By</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StdCostWkshLine - Field Implemented By - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3610957427 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StdCostWkshLine - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3610957427 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StdCostWkshLine - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3610957427 - Field 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StdCostWkshLine - Field Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3610957427 - Field 2547273590 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Locked Flag Snapshot</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StdCostWkshLine - Field Locked Flag Snapshot - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3610957427 - Field 1455837040 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Standard Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StdCostWkshLine - Field New Standard Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3610957427 - Field 2898143332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Note</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StdCostWkshLine - Field Note - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3610957427 - Field 3450651614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StdCostWkshLine - Field Variant Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3610957427 - Field 850170739 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Worksheet Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StdCostWkshLine - Field Worksheet Name - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 32171465 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>User Save Settings</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -8123,6 +8228,121 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ShipAgentDistribution - Action NewEntry - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 576485317 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SPN Std. Cost Worksheet</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 576485317 - Action 2297958186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Apply</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheet - Action ApplyImplementation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 576485317 - Action 3815338175 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Draft from Locked SKUs</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheet - Action CreateDraftFromLocked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4133706556 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SPN Std. Cost Worksheets</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheets - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4133706556 - Action 3815338175 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Draft from Locked SKUs</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheets - Action CreateDraftFromLocked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4133706556 - Action 4268418197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheets - Action OpenDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 120528606 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Std. Cost Worksheet Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 120528606 - Control 1808925963 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Current Standard Cost field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Current Standard Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 120528606 - Control 4106637098 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Implemented field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Implemented - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 120528606 - Control 2978033237 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Implemented At field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Implemented At - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 120528606 - Control 3001379535 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Implemented By field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Implemented By - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 120528606 - Control 568743302 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Item No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Item No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 120528606 - Control 3320823955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Line No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Line No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 120528606 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Location Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 120528606 - Control 2547273590 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Locked Flag Snapshot field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Locked Flag Snapshot - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 120528606 - Control 1455837040 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the New Standard Cost field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control New Standard Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 120528606 - Control 2898143332 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Note field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Note - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 120528606 - Control 3450651614 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Variant Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Variant Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 120528606 - Control 850170739 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Worksheet Name field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Worksheet Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 120528606 - Action 2139686303 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Recalculate Line action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Action RecalculateLine - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 120528606 - Action 2139686303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recalculate Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Action RecalculateLine - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 120528606 - Action 1048388559 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Validate action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Action ValidateCanImplement - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 120528606 - Action 1048388559 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Validate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Action ValidateCanImplement - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1928153799 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Testpage</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -10358,6 +10578,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GetShipmentLines - Control Shipping Agent Service Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1678772375 - Control 2643900222 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1180040559">
+          <source>Turn the silent skip on/off. When enabled, SKUs marked as manually maintained will ignore automated Standard Cost updates.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension InventorySetup - Control Enable Std. Cost Guard - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1678772375 - Control 148499190 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1180040559">
           <source>Scanpan EAN Setup</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -11968,6 +12193,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ShopCalendarHolidays - Control Shop Calendar Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2560605115 - Control 2365106771 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2706473163">
+          <source>If selected, Standard Cost changes on this SKU will be blocked by batch or mass update processes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension StockkeepingUnitCard - Control SPN Std. Cost Manually Updated - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2154113826 - Control 1527594213 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1435832953">
           <source>Specifies for the SKU, the same as the field does on the item card.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -12573,6 +12803,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension InventorySetup - Field EAN Country Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1678772375 - Field 2643900222 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1180040559">
+          <source>Enable Std. Cost Guard</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension InventorySetup - Field Enable Std. Cost Guard - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1678772375 - Field 3053677886 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1180040559">
           <source>Last EAN Code Used</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -12832,6 +13067,21 @@
           <source>Show SelfInsured Warning</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCANPANSetupExt - Field Show SelfInsured Warning - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 939214579 - Field 1994636919 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 494646383">
+          <source>Fixed Std. Cost (Sales)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SPN SKU Ext - Field SPN Fixed Std. Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 939214579 - Field 2365106771 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 494646383">
+          <source>Std. Cost is manually updated</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SPN SKU Ext - Field SPN Std. Cost Manually Updated - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 939214579 - Field 958132079 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 494646383">
+          <source>Variable Std. Cost (Prod)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SPN SKU Ext - Field SPN Variable Std. Cost - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3279488167 - Field 4216338936 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3279488167">
           <source>Duty Percentage</source>
@@ -13607,6 +13857,16 @@
           <source>Year</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum PeriodType - EnumValue Year - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2028227194 - EnumValue 253238575 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Draft</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum SPN StdCost Wksh Status - EnumValue Draft - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2028227194 - EnumValue 4106637098 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Implemented</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum SPN StdCost Wksh Status - EnumValue Implemented - Property Caption</note>
         </trans-unit>
         <trans-unit id="ReportExtension 3266141404 - NamedType 2390717100" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 3266141404">
           <source>SCANPAN</source>
