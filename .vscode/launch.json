@@ -21,7 +21,7 @@
             
               
             "authentication": "UserPassword",
-            "schemaUpdateMode": "Synchronize", // Synchronize or Recreate
+            "schemaUpdateMode": "ForceSync", // "Synchronize", // Synchronize or Recreate
             //"schemaUpdateMode": "Recreate",                   
             "breakOnError": true,
             "breakOnRecordWrite": false,

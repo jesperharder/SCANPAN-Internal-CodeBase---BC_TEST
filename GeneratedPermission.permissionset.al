@@ -69,7 +69,7 @@ permissionset 50000 GeneratedPermission
         report ProductionControllingPriority = X,
         report Salgsprisliste = X,
         report "Scanpan Pallelabel" = X,
-        report Vareenhedsliste = X,
+        //report Vareenhedsliste = X,
         report Varelabel = X,
         codeunit ChartBuilder = X,
         codeunit CompanyTestDetection = X,

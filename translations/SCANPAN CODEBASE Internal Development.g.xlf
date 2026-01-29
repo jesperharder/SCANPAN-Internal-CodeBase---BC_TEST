@@ -2623,6 +2623,36 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit ScanpanMiscellaneous - Method WarningCheckImercoDropShip - NamedType Text002Lbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 29166242 - NamedType 3169974881" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item %1 has unsupported costing method for standard cost implementation.</source>
+          <note from="Developer" annotates="general" priority="2">Error message when item has unsupported costing method %1</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SPNStdCostManager - NamedType CheckCostingMethodErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 29166242 - NamedType 2184892397" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item %1 not found.</source>
+          <note from="Developer" annotates="general" priority="2">Error message when item is not found %1</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SPNStdCostManager - NamedType ItemNotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 29166242 - NamedType 1790617573" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SKU for Item %1, Location %2, Variant %3 not found.</source>
+          <note from="Developer" annotates="general" priority="2">Error message when SKU is not found for Item %1, Location %2, Variant %3</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SPNStdCostManager - NamedType SKUNotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 29166242 - NamedType 1408909854" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SKU standard cost for Item %1 would be updated to %2 (dry-run).</source>
+          <note from="Developer" annotates="general" priority="2">Message when SKU standard cost would be updated for Item %1 to %2 in dry-run mode.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SPNStdCostManager - NamedType SKUStandardCostDryRunMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 29166242 - NamedType 2489074699" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SKU standard cost for Item %1 (Loc: %2, Var: %3) updated to %4.</source>
+          <note from="Developer" annotates="general" priority="2">Message when SKU standard cost is updated for Item %1 (Loc: %2, Var: %3) to %4.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SPNStdCostManager - NamedType SKUStandardCostUpdatedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 29166242 - NamedType 3549236425" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Standard Cost cannot be changed for SKU %1 | %2 | %3 because it is locked for manual maintenance.</source>
+          <note from="Developer" annotates="general" priority="2">Error message when trying to change standard cost on locked SKU %1 | %2 | %3</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SPNStdCostManager - NamedType StandardCostLockedErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 840276416 - Method 3408154389 - NamedType 2300139140" size-unit="char" translate="yes" xml:space="preserve">
           <source>Warning - In TrueCommerce EDI Customer Name must not exceed 35 chars.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2783,6 +2813,111 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AdjustBoMlines - Control AdjustQtyPerFactor - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2792649982 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attachment Overview</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scanpan</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3567459362 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Input</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control Input - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 4002398476 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Indtast nummer på den bogførte faktura/kreditnota. Tryk Enter for at hente vedhæftninger.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control PostedDocNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 4002398476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Doc No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control PostedDocNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3309124475 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vælg typen af bogført dokument. Bruges sammen med nummeret til at hente vedhæftede filer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control PostedDocType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3309124475 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Doc Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control PostedDocType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 472338107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Result</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control Result - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3582274122 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dato hvor filen blev vedhæftet.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control Attached Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 2363328873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dokumenttypen fra kilden (hvis relevant).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control Document Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3414364457 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filendelsen (f.eks. pdf, jpg).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control File Extension - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 804481195 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Navnet på filen uden filendelse.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control File Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3004095410 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filtypen registreret i vedhæftningen.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control File Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3641927271 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unikt ID for vedhæftningen (fra "Document Attachment").</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3320823955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Linjenummeret, hvis vedhæftningen er knyttet til en linje.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control Line No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kildepostens nummer (f.eks. dokumentnr. eller salgsordre).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3135334477 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kildetabel for vedhæftningen (f.eks. Sales Invoice Header/Line, Sales Header/Line).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control Table ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Action 2647891866 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hent vedhæftninger for det valgte bogførte dokument. Samme effekt som at trykke Enter i feltet "Posted Doc No.".</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Action Load - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Action 2647891866 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Load Attachments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Action Load - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Action 3685084935 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download den valgte vedhæftning til din enhed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Action OpenAttachment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Action 3685084935 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open Selected</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Action OpenAttachment - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 206709555 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>SCANPAN_BC_LICENSE_INFORMATION</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2902,6 +3037,51 @@
           <source>Specifies the value of the SystemModifiedBy field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BC_LICENSE_PERMISSION_SC - Control SystemModifiedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2262456898 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin Content FIFO Summary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2262456898 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SCANPAN, FIFO Summary, FIFO Info, FIFO Information, Bin FIFO, Bin FIFO Summary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Page 2262456898 - Control 4062051408 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Avg Age (Days)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Control Avg Age Days - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2262456898 - Control 3128280610 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Layers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Control FIFO Layers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2262456898 - Control 587468276 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Angiver datoen for den ældste lagerpost i denne specifikke placering.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Control Oldest Bin Entry Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2262456898 - Control 587468276 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ældste placering i boks</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Control Oldest Bin Entry Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2262456898 - Control 549670055 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Oldest FIFO Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Control Oldest Entry Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2262456898 - Action 2736249727 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show detailed FIFO layers for selected bin.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Action ShowFIFOLayers - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2262456898 - Action 2736249727 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show FIFO Layers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Action ShowFIFOLayers - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Recursive BOM Cost Shares</source>
@@ -4093,105 +4273,115 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page FieldPage - Control No. - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 716810794 - Control 1409824262 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Gen. Prod. Posting Group field.</source>
+        <trans-unit id="Page 122555609 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FIFO Layer Details</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control GenProdPostingGroupFilter - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 716810794 - Control 1409824262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Gen. Prod. Posting Group</source>
+        <trans-unit id="Page 122555609 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SCANPAN, FIFO Layer Detail, FIFO Layers. FIFO Layer, Detail</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control GenProdPostingGroupFilter - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Property AdditionalSearchTerms</note>
         </trans-unit>
-        <trans-unit id="Page 716810794 - Control 810109192 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Item No. field.</source>
+        <trans-unit id="Page 122555609 - Control 500103914 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FIFO Layers (Oldest First)</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control ItemNoFilter - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control FIFOLayers - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 716810794 - Control 810109192 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 122555609 - Control 1635732850 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Angiver den placering hvor dette FIFO-lag faktisk befinder sig.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Actual Bin Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 1635732850 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Faktisk placering</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Actual Bin Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 162014624 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Age (Days)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Age Days - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 3363940359 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date when this inventory entry was placed in this specific bin.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Bin Entry Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 3363940359 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Placeret i boks</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Bin Entry Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 1212555323 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Running total of remaining quantity (FIFO order)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Cumulative Qty - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 1212555323 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cumulative Qty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Cumulative Qty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 1430266904 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FIFO layer number (1 = oldest)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Layer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 1430266904 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Layer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Layer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date of original receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 2367056265 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining quantity in this FIFO layer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Remaining Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 381961415 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit cost for this layer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Unit Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 381961415 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Unit Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 2470140483 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin Information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control HeaderInfo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 2855694949 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control ItemNoFilter - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control ItemNoHeader - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 716810794 - Control 4277715959 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Location Filter field.</source>
+        <trans-unit id="Page 122555609 - Control 3393177897 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control Location Filter - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control LocationCodeHeader - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 716810794 - Control 4277715959 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Location Filter</source>
+        <trans-unit id="Page 122555609 - Control 1115160782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Remaining Qty</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control Location Filter - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control TotalRemainingQty - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 716810794 - Control 1071527942 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Product Line Code field.</source>
+        <trans-unit id="Page 122555609 - Action 2145927401 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Bin Content</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control ProdLineCodeFilter - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Action ShowBinContent - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 716810794 - Control 1071527942 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Product Line Code</source>
+        <trans-unit id="Page 122555609 - Action 1359560185 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Entry</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control ProdLineCodeFilter - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 716810794 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies what you are selling.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control Description - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 716810794 - Control 2105307182 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the total quantity of the item that is currently in inventory at all locations.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control Inventory - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 716810794 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of the item.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control No. - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 401589245 - Control 1770973774 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Lists all bin codes with contents for this item and location.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control All Bin Codes - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 401589245 - Control 1770973774 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>All Bin Codes</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control All Bin Codes - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 401589245 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Document No. field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Document No. - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 401589245 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Entry No. field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Entry No. - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 401589245 - Control 149522872 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Entry Type field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Entry Type - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 401589245 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Location Code field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Location Code - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 401589245 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Posting Date field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Posting Date - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 401589245 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Quantity field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Quantity - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 401589245 - Control 2367056265 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Remaining Quantity field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Remaining Quantity - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Action ShowItemLedgerEntry - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2067818462 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Inter Company Infomation Tracking</source>
@@ -8233,10 +8423,65 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheet - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 576485317 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SPN Standard Cost Worksheet,SPN Std Cost Worksheet,SPN StdCostWkshHeader</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheet - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Page 576485317 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheet - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 576485317 - Control 2570673311 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when this worksheet was created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheet - Control Created At - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 576485317 - Control 2369664869 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the user who created this worksheet.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheet - Control Created By - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 576485317 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a description of the worksheet purpose.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheet - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 576485317 - Control 2978033237 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when this worksheet was implemented.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheet - Control Implemented At - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 576485317 - Control 3001379535 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the user who implemented this worksheet.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheet - Control Implemented By - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 576485317 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the unique identifier for this worksheet.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheet - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 576485317 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the current status of the worksheet. Draft worksheets can be edited, Implemented worksheets are locked.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheet - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 576485317 - Action 2297958186 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Apply this worksheet by updating all SKU standard costs and marking it as Implemented. This action cannot be undone.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheet - Action ApplyImplementation - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 576485317 - Action 2297958186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Apply</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheet - Action ApplyImplementation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 576485317 - Action 3815338175 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Populate this worksheet with all SKUs that are marked for manual standard cost maintenance and have not been implemented yet.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheet - Action CreateDraftFromLocked - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 576485317 - Action 3815338175 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Create Draft from Locked SKUs</source>
@@ -8248,10 +8493,95 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheets - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 4133706556 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SPN Standard Cost Worksheets,SPN Std Cost Worksheets,SPN StdCostWkshHeader</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheets - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Page 4133706556 - Control 2570673311 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date/time when the worksheet was created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheets - Control Created At - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4133706556 - Control 2570673311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created At</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheets - Control Created At - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4133706556 - Control 2369664869 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User who created the worksheet.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheets - Control Created By - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4133706556 - Control 2369664869 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created By</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheets - Control Created By - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4133706556 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Describes the worksheet purpose or scope.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheets - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4133706556 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheets - Control Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4133706556 - Control 2978033237 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date/time when the worksheet was implemented.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheets - Control Implemented At - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4133706556 - Control 2978033237 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Implemented At</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheets - Control Implemented At - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4133706556 - Control 3001379535 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User who implemented the worksheet.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheets - Control Implemented By - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4133706556 - Control 3001379535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Implemented By</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheets - Control Implemented By - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4133706556 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Identifies the Standard Cost worksheet. Click to open the worksheet.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheets - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4133706556 - Control 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheets - Control Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4133706556 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the current status. Non-draft worksheets are read-only.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheets - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4133706556 - Control 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheets - Control Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4133706556 - Action 3815338175 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Builds a new draft from SKUs locked for manual standard cost (preserving fixed costs).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheets - Action CreateDraftFromLocked - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 4133706556 - Action 3815338175 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Create Draft from Locked SKUs</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheets - Action CreateDraftFromLocked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4133706556 - Action 4268418197 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the selected worksheet to view or edit its lines.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SPN StdCost Worksheets - Action OpenDocument - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4133706556 - Action 4268418197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open</source>
@@ -8263,68 +8593,133 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 120528606 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Standard Cost Worksheet Lines,Std Cost Wksh Lines,StdCostWkshLine</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Property AdditionalSearchTerms</note>
+        </trans-unit>
         <trans-unit id="Page 120528606 - Control 1808925963 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Current Standard Cost field.</source>
+          <source>The current standard cost stored on the item or SKU.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Current Standard Cost - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 120528606 - Control 1808925963 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Current Standard Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Current Standard Cost - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 120528606 - Control 4106637098 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Implemented field.</source>
+          <source>Indicates whether the new standard cost on this line has been implemented.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Implemented - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 120528606 - Control 4106637098 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Implemented</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Implemented - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 120528606 - Control 2978033237 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Implemented At field.</source>
+          <source>Date and time when the standard cost from this line was implemented.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Implemented At - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 120528606 - Control 2978033237 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Implemented At</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Implemented At - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 120528606 - Control 3001379535 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Implemented By field.</source>
+          <source>User who implemented the standard cost from this line.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Implemented By - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 120528606 - Control 3001379535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Implemented By</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Implemented By - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 120528606 - Control 568743302 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Item No. field.</source>
+          <source>The item whose standard cost is being managed on this line.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Item No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 120528606 - Control 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Item No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 120528606 - Control 3320823955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Line No. field.</source>
+          <source>The sequential line number assigned by the system.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Line No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 120528606 - Control 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Line No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 120528606 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Location Code field.</source>
+          <source>The location for which the standard cost applies (blank means company-wide).</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Location Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 120528606 - Control 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Location Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 120528606 - Control 2547273590 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Locked Flag Snapshot field.</source>
+          <source>Shows whether the item/SKU was locked for manual standard cost at the time of snapshot.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Locked Flag Snapshot - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 120528606 - Control 2547273590 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Locked (Snapshot)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Locked Flag Snapshot - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 120528606 - Control 1455837040 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the New Standard Cost field.</source>
+          <source>The proposed standard cost to implement for this item/variant/location.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control New Standard Cost - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 120528606 - Control 1455837040 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Standard Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control New Standard Cost - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 120528606 - Control 2898143332 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Note field.</source>
+          <source>Optional note about this line or its calculation.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Note - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 120528606 - Control 2898143332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Note</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Note - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 120528606 - Control 3450651614 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Variant Code field.</source>
+          <source>The item variant for which the standard cost applies (blank means base item).</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Variant Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 120528606 - Control 3450651614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Variant Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 120528606 - Control 850170739 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Worksheet Name field.</source>
+          <source>The worksheet header this line belongs to.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Worksheet Name - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 120528606 - Control 850170739 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Worksheet Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Control Worksheet Name - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 120528606 - Action 2139686303 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the Recalculate Line action.</source>
+          <source>Recalculates the new standard cost on the selected line using the current rules.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Action RecalculateLine - Property ToolTip</note>
         </trans-unit>
@@ -8334,7 +8729,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Action RecalculateLine - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 120528606 - Action 1048388559 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the Validate action.</source>
+          <source>Validates whether the selected line can be implemented in the current company.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page StdCostWkshLines - Action ValidateCanImplement - Property ToolTip</note>
         </trans-unit>
@@ -8933,16 +9328,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Adresselabel - Control lblChooser - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 2303289331 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Options</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Adresselabel - Control Options - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 2303289331 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Design</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Adresselabel - Control ForNavOpenDesigner - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Report 2303289331 - Control 3139840067 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Select Order Address</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9263,11 +9648,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Customs Declaration - Control Options - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 4201941100 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Design</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Customs Declaration - Control ForNavOpenDesigner - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Report 4201941100 - Control 2390717100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Scanpan</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9297,16 +9677,6 @@
           <source>Scanpan</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report DebitorAddress - Property AdditionalSearchTerms</note>
-        </trans-unit>
-        <trans-unit id="Report 53250575 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Options</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report DebitorAddress - Control Options - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 53250575 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Design</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report DebitorAddress - Control ForNavOpenDesigner - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2376486382 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Delete Empty Requisition Item Lines</source>
@@ -9368,16 +9738,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EmployeeSales - Property AdditionalSearchTerms</note>
         </trans-unit>
-        <trans-unit id="Report 3587925886 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Options</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EmployeeSales - Control Options - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3587925886 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Design</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EmployeeSales - Control ForNavOpenDesigner - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Report 4231483331 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Invoice TariffCode</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9388,25 +9748,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Faktura Varekoder - Property AdditionalSearchTerms</note>
         </trans-unit>
-        <trans-unit id="Report 4231483331 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Options</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Faktura Varekoder - Control Options - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 4231483331 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Design</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Faktura Varekoder - Control ForNavOpenDesigner - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Report 1127638198 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Options</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV 50014 - Control Options - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 1127638198 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Design</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV 50014 - Control ForNavOpenDesigner - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 1127638198 - Control 2390717100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Scanpan</source>
@@ -9433,16 +9778,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Hyldelabel - Property AdditionalSearchTerms</note>
         </trans-unit>
-        <trans-unit id="Report 3040750390 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Options</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Hyldelabel - Control Options - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3040750390 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Design</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Hyldelabel - Control ForNavOpenDesigner - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Report 4094751401 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Licenseplate</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9457,11 +9792,6 @@
           <source>Options</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Licenseplate - Control Options - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 4094751401 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Design</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Licenseplate - Control ForNavOpenDesigner - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 4094751401 - Control 2618427852 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Scanpan</source>
@@ -9502,11 +9832,6 @@
           <source>Options</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Ordrebeholdning - Control Options - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 140246548 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Design</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Ordrebeholdning - Control ForNavOpenDesigner - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 140246548 - Control 2390717100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Scanpan</source>
@@ -9558,16 +9883,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report ProductionControllingPriority - Control Options - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 3638427390 - Control 1992870141 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Design field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report ProductionControllingPriority - Control ForNavOpenDesigner - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 3638427390 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Design</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report ProductionControllingPriority - Control ForNavOpenDesigner - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Report 3638427390 - Control 2618427852 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Scanpan</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9587,11 +9902,6 @@
           <source>Options</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Salgsprisliste - Control Options - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 1476406087 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Design</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Salgsprisliste - Control ForNavOpenDesigner - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 1476406087 - Control 3078778617 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Report Output Type</source>
@@ -9697,16 +10007,6 @@
           <source>Der er ikke valgt vareenhed.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Scanpan Pallelabel - NamedType SelectItemUnitLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 1666922686 - Control 1992870141 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Opens the ForNAV designer when the "Preview" button is pressed</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Scanpan Pallelabel - Control ForNavOpenDesigner - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 1666922686 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Design</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Scanpan Pallelabel - Control ForNavOpenDesigner - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 1666922686 - Control 2618427852 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Scanpan</source>
@@ -9843,56 +10143,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report UpdateXTESCSSTrackAndTrace - Control Shipment Type - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Report 4112730994 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Item Units list</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Vareenhedsliste - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 4112730994 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Scanpan</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Vareenhedsliste - Property AdditionalSearchTerms</note>
-        </trans-unit>
-        <trans-unit id="Report 4112730994 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Options</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Vareenhedsliste - Control Options - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 4112730994 - Control 1992870141 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Design field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Vareenhedsliste - Control ForNavOpenDesigner - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 4112730994 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Design</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Vareenhedsliste - Control ForNavOpenDesigner - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 4112730994 - Control 2618427852 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Scanpan</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Vareenhedsliste - Control scanpan - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 4112730994 - Control 2263974386 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Sprog varetekster field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Vareenhedsliste - Control ItemTranslation - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 4112730994 - Control 2263974386 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sprog varetekster</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Vareenhedsliste - Control ItemTranslation - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 4112730994 - Control 2923730370 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Angiv det minimumsantal en enhed skal have, for at blive vist</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Vareenhedsliste - Control OnlyQtyOver - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 4112730994 - Control 2923730370 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Vis kun enheder over antal</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Vareenhedsliste - Control OnlyQtyOver - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Report 1074578714 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item label</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9917,11 +10167,6 @@
           <source>Options</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Varelabel - Control Options - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 1074578714 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Design</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Varelabel - Control ForNavOpenDesigner - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 1074578714 - Control 2618427852 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Scanpan</source>
@@ -10373,6 +10618,71 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ChangeLogEntries - View Ændringslog indstillinger - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>Comment Sheet Ext</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>Scanpan, CommentSheetExt,Comment Sheet Ext, CommentSheet</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Action 2592394794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>SPN Filters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Action SPN Filters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Action 4012012299 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>Temporarily ignore the standard page context filters (RunPageLink &amp; other system filter groups). Security filters are not affected.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Action SPNIgnoreContextFilters - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Action 4012012299 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>Ignore context filters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Action SPNIgnoreContextFilters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Action 605563931 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>Reapply the original context filters that were active when the page opened.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Action SPNRestoreContextFilters - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Action 605563931 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>Restore context filters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Action SPNRestoreContextFilters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>Shows the related name/description for the selected table and No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Control 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Control Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Control 3808951907 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>Specifies the table to which the comment line is related.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Control Table Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Control 3808951907 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>Table Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Control Table Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Control 2780975642 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>Displays the description of the selected usage code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Control Usage Code Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Control 2780975642 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>Usage Code Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Control Usage Code Description - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1464534165 - Control 2138714213 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 105737358">
           <source>Specifies the value of the Channel Type field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -10577,11 +10887,6 @@
           <source>The Service Code used with the Shipping Agent.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GetShipmentLines - Control Shipping Agent Service Code - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 1678772375 - Control 2643900222 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1180040559">
-          <source>Turn the silent skip on/off. When enabled, SKUs marked as manually maintained will ignore automated Standard Cost updates.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension InventorySetup - Control Enable Std. Cost Guard - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 1678772375 - Control 148499190 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1180040559">
           <source>Scanpan EAN Setup</source>
@@ -12194,29 +12499,89 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ShopCalendarHolidays - Control Shop Calendar Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2560605115 - Control 2365106771 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2706473163">
-          <source>If selected, Standard Cost changes on this SKU will be blocked by batch or mass update processes.</source>
+          <source>If selected, manually triggered updates will not change the Standard Cost for this SKU.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension StockkeepingUnitCard - Control SPN Std. Cost Manually Updated - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 2154113826 - Control 1527594213 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1435832953">
-          <source>Specifies for the SKU, the same as the field does on the item card.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension StockkeepingUnitListExtSC - Control Vendor No. - Property ToolTip</note>
+        <trans-unit id="PageExtension 1647554057 - NamedType 2173050035" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1647554057">
+          <source>Set the manual std. cost flag for %1 stockkeeping unit(s) with Location Code filter '%2' to %3?</source>
+          <note from="Developer" annotates="general" priority="2">%1=number of records, %2=location filter text, %3=target state description</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension StockkeepingUnitList - NamedType ConfirmUpdateLbl</note>
         </trans-unit>
-        <trans-unit id="PageExtension 2154113826 - Control 2851474960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1435832953">
-          <source>Specifies for the SKU, the same as the field does on the item card.</source>
+        <trans-unit id="PageExtension 1647554057 - NamedType 2960156662" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1647554057">
+          <source>INTERN</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension StockkeepingUnitListExtSC - Control Reorder Point1 - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension StockkeepingUnitList - NamedType GenProdPostingGroupFilterTxt</note>
         </trans-unit>
-        <trans-unit id="PageExtension 2154113826 - Control 2943607522 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1435832953">
-          <source>Specifies for the SKU, the same as the field does on the item card.</source>
+        <trans-unit id="PageExtension 1647554057 - NamedType 3482835776" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1647554057">
+          <source>Add a Location Code filter before running this action.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension StockkeepingUnitListExtSC - Control Safety Stock Quantity52170 - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension StockkeepingUnitList - NamedType LocationFilterMissingErr</note>
         </trans-unit>
-        <trans-unit id="PageExtension 2154113826 - Control 3041858163 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1435832953">
+        <trans-unit id="PageExtension 1647554057 - NamedType 382397646" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1647554057">
+          <source>disabled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension StockkeepingUnitList - NamedType ManualStdCostDisabledTxt</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1647554057 - NamedType 3164520921" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1647554057">
+          <source>enabled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension StockkeepingUnitList - NamedType ManualStdCostEnabledTxt</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1647554057 - NamedType 1783478387" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1647554057">
+          <source>No stockkeeping units with Location Code '%1' are linked to items where Gen. Prod. Posting Group = '%2' and Costing Method = Standard.</source>
+          <note from="Developer" annotates="general" priority="2">%1=location filter text, %2=Gen. Prod. Posting Group filter text</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension StockkeepingUnitList - NamedType NoRecordsForFilterErr</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1647554057 - NamedType 2181104983" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1647554057">
+          <source>Updated the manual std. cost flag to %2 on %1 stockkeeping unit(s).</source>
+          <note from="Developer" annotates="general" priority="2">%1=number of records, %2=target state description</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension StockkeepingUnitList - NamedType UpdateCompletedMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1647554057 - Action 1814336181 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1435832953">
+          <source>Executes the Disable Manual Std. Cost action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension StockkeepingUnitList - Action DisableSPNStdCostManual - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1647554057 - Action 1814336181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1435832953">
+          <source>Disable Manual Std. Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension StockkeepingUnitList - Action DisableSPNStdCostManual - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1647554057 - Action 45534578 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1435832953">
+          <source>Executes the Enable Manual Std. Cost action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension StockkeepingUnitList - Action EnableSPNStdCostManual - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1647554057 - Action 45534578 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1435832953">
+          <source>Enable Manual Std. Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension StockkeepingUnitList - Action EnableSPNStdCostManual - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1647554057 - Control 1527594213 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1435832953">
           <source>Specifies for the SKU, the same as the field does on the item card.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension StockkeepingUnitListExtSC - Control Reordering Policy - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension StockkeepingUnitList - Control Vendor No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1647554057 - Control 2851474960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1435832953">
+          <source>Specifies for the SKU, the same as the field does on the item card.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension StockkeepingUnitList - Control Reorder Point1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1647554057 - Control 2943607522 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1435832953">
+          <source>Specifies for the SKU, the same as the field does on the item card.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension StockkeepingUnitList - Control Safety Stock Quantity52170 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1647554057 - Control 3041858163 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1435832953">
+          <source>Specifies for the SKU, the same as the field does on the item card.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension StockkeepingUnitList - Control Reordering Policy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1647554057 - Control 2838254244 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1435832953">
+          <source>Specifies the SKU, Standard Cost. IT can be different from the item standard cost.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension StockkeepingUnitList - Control Standard Cost - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 1688820690 - Control 4216338936 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1688820690">
           <source>Indicates Duty Percentage.</source>
@@ -12803,11 +13168,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension InventorySetup - Field EAN Country Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1678772375 - Field 2643900222 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1180040559">
-          <source>Enable Std. Cost Guard</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension InventorySetup - Field Enable Std. Cost Guard - Property Caption</note>
-        </trans-unit>
         <trans-unit id="TableExtension 1678772375 - Field 3053677886 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1180040559">
           <source>Last EAN Code Used</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -13068,20 +13428,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCANPANSetupExt - Field Show SelfInsured Warning - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 939214579 - Field 1994636919 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 494646383">
-          <source>Fixed Std. Cost (Sales)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SPN SKU Ext - Field SPN Fixed Std. Cost - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 939214579 - Field 2365106771 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 494646383">
+        <trans-unit id="TableExtension 3072298143 - Field 2365106771 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 494646383">
           <source>Std. Cost is manually updated</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SPN SKU Ext - Field SPN Std. Cost Manually Updated - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 939214579 - Field 958132079 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 494646383">
-          <source>Variable Std. Cost (Prod)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SPN SKU Ext - Field SPN Variable Std. Cost - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension StockkeepingUnit - Field SPN Std. Cost Manually Updated - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3279488167 - Field 4216338936 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3279488167">
           <source>Duty Percentage</source>

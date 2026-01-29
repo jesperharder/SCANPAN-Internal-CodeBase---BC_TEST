@@ -1,3 +1,7 @@
+/// <summary>
+/// 2025.10  Jesper Harder  116.1
+/// </summary>
+
 table 50029 "StdCostWkshHeader"
 {
     Caption = 'SPN SKU Std. Cost Worksheet';

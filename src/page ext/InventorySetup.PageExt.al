@@ -13,14 +13,6 @@ pageextension 50024 "InventorySetup" extends "Inventory Setup"
     layout
     {
         // Put the toggle where it’s easy to find; adjust FastTab as you prefer
-        addlast(General)
-        {
-            field("Enable Std. Cost Guard"; Rec."Enable Std. Cost Guard")
-            {
-                ApplicationArea = All;
-                ToolTip = 'Turn the silent skip on/off. When enabled, SKUs marked as manually maintained will ignore automated Standard Cost updates.';
-            }
-        }
         addafter(Numbering)
         {
             group(ScanpanEAN)

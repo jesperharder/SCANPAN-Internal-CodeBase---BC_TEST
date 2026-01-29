@@ -7,7 +7,7 @@
   "brief": "The Scanpan A/S Code Extension for Business Central: Your solution for streamlined processes, higher productivity, and a competitive edge. Unlock its power and transform your business today, regardless of its size.",
   "publisher": "SCANPAN",
   "contextSensitiveHelpUrl": "https://www.scanpan.dk/",
-  "version": "1.0.26.3",
+  "version": "1.0.26.4",
   "runtime": "7.2",
   "showMyCode": true,
   "target": "OnPrem",
@@ -51,15 +51,21 @@
       "publisher": "IT.integro sp. z o.o."
     },
     {
+      "id": "3c107f88-c5c8-4ec0-b40f-c321a596c29c",
+      "name": "Master Data Management System",
+      "version": "4.0.4.5",
+      "publisher": "IT.integro sp. z o.o."
+    },
+    {
       "id": "6f0293d3-86fc-4ff8-9632-54a580be6546",
       "name": "ForNAV Core",
-      "version": "16.0.0.0",
+      "version": "8.1.1800.12",
       "publisher": "ForNAV"
     },
     {
       "id": "83326d6d-11f8-49fd-981a-6f266a7c8d81",
       "name": "Customizable Report Pack",
-      "version": "6.3.0.1",
+      "version": "8.1.1800.12",
       "publisher": "ForNAV"
     },
     {
@@ -79,12 +85,6 @@
       "name": "TrueCommerce EDI and eCommerce (DK/UK)",
       "version": "8.9.0.66",
       "publisher": "TrueCommerce"
-    },
-    {
-      "id": "3c107f88-c5c8-4ec0-b40f-c321a596c29c",
-      "name": "Master Data Management System",
-      "version": "4.0.4.5",
-      "publisher": "IT.integro sp. z o.o."
     },
     {
       "id": "77f87193-a56f-4872-9844-63c073203c32",
@@ -117,16 +117,17 @@
       "publisher": "XtensionIT ApS"
     },
     {
-      "id": "a5727ce6-368c-49e2-84cb-1a6052f0551c",
-      "name": "Mobile WMS",
-      "version": "5.46.180.237",
-      "publisher": "Tasklet Factory"
-    },
-    {
       "id": "bb4b75d3-0cc7-4a97-97d7-f0f5b77f0f1a",
       "name": "Shipment Extender for Tasklet Mobile WMS",
       "publisher": "XtensionIT ApS",
       "version": "2.11.1.1800"
+    },
+   {
+      "id": "a5727ce6-368c-49e2-84cb-1a6052f0551c",
+      "name": "Mobile WMS",
+      "version": "5.46.180.237",
+      "publisher": "Tasklet Factory"
     }
+ 
   ]
 }

@@ -15,6 +15,7 @@ codeunit 50004 "TEST_CU"
     var
     BOMCostShares: page "BOM Cost Shares";
     ItemCard: page "Item Card";
+    mypage: page "Comment Sheet";
 
     
     VareHouseShipmentLine: Record "Warehouse Shipment Line";
@@ -89,6 +90,5 @@ TransfeOrder: page "Transfer Order";
         exit(IsReadyDelete);
     end;
     #endregion
-
 
 }
