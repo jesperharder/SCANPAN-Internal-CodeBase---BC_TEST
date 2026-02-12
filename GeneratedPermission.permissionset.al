@@ -61,7 +61,7 @@ permissionset 50000 GeneratedPermission
         report DebitorAddress = X,
         report EmployeeSales = X,
         report "Faktura Varekoder" = X,
-        report "ForNAV 50014" = X,
+        //report "ForNAV 50014" = X,
         report Hyldelabel = X,
         report Licenseplate = X,
         report Ordrebeholdning = X,

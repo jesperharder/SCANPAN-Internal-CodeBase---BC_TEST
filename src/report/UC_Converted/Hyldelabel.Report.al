@@ -17,7 +17,7 @@ Report 50003 Hyldelabel
 				ReportForNav.OnPreDataItem('Bin',Bin);
 			end;
 		}
-	}
+	} 
 	requestpage
 	{
 		SaveValues = true;

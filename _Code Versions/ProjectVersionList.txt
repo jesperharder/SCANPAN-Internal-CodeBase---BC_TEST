@@ -108,6 +108,7 @@
 | 2024.12 | Jesper Harder| 103       | 103.01  | Added field Ship-to City to SalesOrderList                                                                      |
 
 
+
 ...2024.06
 Introduction to the Code Revision List
 
@@ -238,6 +239,9 @@ All Events; <shift>+<alt>+E
 /// 2024.12             Jesper Harder       101         Show WaybillHeader Shipping Agent Code on WarehouseShipmentList
 /// 2024.12             Jesper Harder       102         Shipmondo E-Mail validator
 /// 2025.03             Jesper Harder       84.2        Shipmondo Set Shipping information Transfer Order
+/// 2026.02             Jesper Harder       104         Snake Game, Added control add-in page and client assets (AL, JS, CSS)
+
+
 APPS:n AppSource, there is a free extension called G/L Source Names. (Add the Source Name column to your General Ledger Entries)
 https://yzhums.com/13226/
 

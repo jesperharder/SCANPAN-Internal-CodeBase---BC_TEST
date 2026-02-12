@@ -117,6 +117,20 @@ pageextension 50000 "AdminRoleCenterExtSC" extends "Administrator Role Center"
                         ToolTip = 'Base for extracting Customer Data to be used in Sales Orderforms.';
                     }
                 }
+                group(FunTools)
+                {
+                    Caption = 'Tools';
+                    ToolTip = 'Small internal utility pages.';
+
+                    action("Snake Game")
+                    {
+                        ApplicationArea = All;
+                        Caption = 'Snake Game';
+                        Image = CoupledItem;
+                        RunObject = page "SCANPAN Snake Game";
+                        ToolTip = 'Open the SCANPAN Snake game.';
+                    }
+                }
             }
         }
     }

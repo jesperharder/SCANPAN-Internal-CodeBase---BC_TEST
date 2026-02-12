@@ -8223,6 +8223,31 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Scanpan API Setup - Control User Name - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 922519520 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SCANPAN Snake Game</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCANPAN Snake Game - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 922519520 - Control 3158366035 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Score</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCANPAN Snake Game - Control Stats - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 922519520 - Control 2198028131 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Current Snake game score.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCANPAN Snake Game - Control CurrentScore - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 922519520 - Action 550311846 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start a new Snake game.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCANPAN Snake Game - Action NewGame - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 922519520 - Action 550311846 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Game</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCANPAN Snake Game - Action NewGame - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1124071565 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Scanpan CardPart</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9748,26 +9773,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Faktura Varekoder - Property AdditionalSearchTerms</note>
         </trans-unit>
-        <trans-unit id="Report 1127638198 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Options</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV 50014 - Control Options - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 1127638198 - Control 2390717100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Scanpan</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV 50014 - Control Scanpan - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 1127638198 - Control 3592094765 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>End date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV 50014 - Control EndingDate - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 1127638198 - Control 543275552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Start date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV 50014 - Control StartingDate - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Report 3040750390 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Shelf Label</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -10387,6 +10392,26 @@
           <source>SCANPAN</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension AdminRoleCenterExtSC - Action Group1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3529527571 - Action 1659383178 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3513039640">
+          <source>Small internal utility pages.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension AdminRoleCenterExtSC - Action FunTools - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3529527571 - Action 1659383178 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3513039640">
+          <source>Tools</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension AdminRoleCenterExtSC - Action FunTools - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3529527571 - Action 3907102320 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3513039640">
+          <source>Open the SCANPAN Snake game.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension AdminRoleCenterExtSC - Action Snake Game - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3529527571 - Action 3907102320 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3513039640">
+          <source>Snake Game</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension AdminRoleCenterExtSC - Action Snake Game - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3529527571 - Action 1548525519 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3513039640">
           <source>Collection of System Information</source>
