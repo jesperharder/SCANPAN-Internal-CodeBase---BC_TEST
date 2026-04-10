@@ -22,7 +22,7 @@ page 50131 "SCANPAN Snake Game"
 
                     trigger ControlReady()
                     begin
-                        CurrPage.Snake.StartNewGame();
+                        CurrentScore := 0;
                     end;
 
                     trigger ScoreChanged(Score: Integer)

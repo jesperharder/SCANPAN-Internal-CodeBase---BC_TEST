@@ -7,6 +7,7 @@
     var tickMs = 120;
     var game = null;
     var demoMode = false;
+    var gameStarted = false;
 
     function invoke(name, args) {
         if (window.Microsoft && Microsoft.Dynamics && Microsoft.Dynamics.NAV) {
@@ -37,7 +38,7 @@
 
         var instructions = document.createElement('div');
         instructions.className = 'snake-instructions';
-        instructions.textContent = 'Use Arrow keys or WASD. Press Space to restart. Demo Mode plays automatically.';
+        instructions.textContent = 'Press Start Game. Then use Arrow keys or WASD. Press Space to restart.';
 
         var canvas = document.createElement('canvas');
         canvas.width = gridSize * tileCount;
@@ -51,11 +52,11 @@
         var actions = document.createElement('div');
         actions.className = 'snake-actions';
 
-        var restartButton = document.createElement('button');
-        restartButton.className = 'snake-button snake-restart';
-        restartButton.type = 'button';
-        restartButton.textContent = 'New Game';
-        restartButton.addEventListener('click', function () {
+        var startButton = document.createElement('button');
+        startButton.className = 'snake-button snake-restart';
+        startButton.type = 'button';
+        startButton.textContent = 'Start Game';
+        startButton.addEventListener('click', function () {
             StartNewGame();
         });
 
@@ -70,7 +71,7 @@
         stopDemoButton.textContent = 'Stop Demo';
         stopDemoButton.disabled = true;
 
-        actions.appendChild(restartButton);
+        actions.appendChild(startButton);
         actions.appendChild(demoButton);
         actions.appendChild(stopDemoButton);
 
@@ -85,6 +86,7 @@
             canvas: canvas,
             overlay: overlay,
             score: document.getElementById('snake-score'),
+            startButton: startButton,
             demoButton: demoButton,
             stopDemoButton: stopDemoButton
         };
@@ -98,6 +100,24 @@
             demoMode = isEnabled;
             ui.demoButton.disabled = demoMode;
             ui.stopDemoButton.disabled = !demoMode;
+        }
+
+        function drawBoard() {
+            ctx.fillStyle = '#111827';
+            ctx.fillRect(0, 0, ui.canvas.width, ui.canvas.height);
+        }
+
+        function setIdleState() {
+            gameStarted = false;
+            game = null;
+            setDemoMode(false);
+            ui.startButton.textContent = 'Start Game';
+            ui.demoButton.disabled = false;
+            ui.overlay.classList.remove('hidden');
+            ui.overlay.textContent = 'Press Start Game or Demo Mode.';
+            ui.score.textContent = 'Score: 0';
+            invoke('ScoreChanged', [0]);
+            drawBoard();
         }
 
         function reset() {
@@ -114,8 +134,10 @@
                 game.food = randomCell();
             }
 
+            gameStarted = true;
             ui.overlay.classList.add('hidden');
             ui.overlay.textContent = '';
+            ui.startButton.textContent = 'New Game';
             ui.score.textContent = 'Score: 0';
             invoke('ScoreChanged', [0]);
         }
@@ -140,28 +162,48 @@
 
         function chooseDemoDirection() {
             var head = game.snake[0];
-            var food = game.food;
-            var horizontal = food.x >= head.x ? 1 : -1;
-            var vertical = food.y >= head.y ? 1 : -1;
-            var preferredMoves = [
-                { x: horizontal, y: 0 },
-                { x: 0, y: vertical },
-                { x: -horizontal, y: 0 },
-                { x: 0, y: -vertical }
+            var candidates = [
+                { x: 1, y: 0 },
+                { x: -1, y: 0 },
+                { x: 0, y: 1 },
+                { x: 0, y: -1 }
             ];
+            var opposite = {
+                x: -game.direction.x,
+                y: -game.direction.y
+            };
+            var bestDirection = null;
+            var bestScore = Number.MAX_SAFE_INTEGER;
             var i;
             var nextCell;
+            var score;
 
-            for (i = 0; i < preferredMoves.length; i += 1) {
+            for (i = 0; i < candidates.length; i += 1) {
+                if (candidates[i].x === opposite.x && candidates[i].y === opposite.y) {
+                    continue;
+                }
+
                 nextCell = {
-                    x: head.x + preferredMoves[i].x,
-                    y: head.y + preferredMoves[i].y
+                    x: head.x + candidates[i].x,
+                    y: head.y + candidates[i].y
                 };
 
                 if (canMoveTo(nextCell)) {
-                    game.nextDirection = preferredMoves[i];
-                    return;
+                    // Prefer moves that reduce food distance and keep current direction.
+                    score = Math.abs(game.food.x - nextCell.x) + Math.abs(game.food.y - nextCell.y);
+                    if (candidates[i].x !== game.direction.x || candidates[i].y !== game.direction.y) {
+                        score += 0.2;
+                    }
+
+                    if (score < bestScore) {
+                        bestScore = score;
+                        bestDirection = candidates[i];
+                    }
                 }
+            }
+
+            if (bestDirection) {
+                game.nextDirection = bestDirection;
             }
         }
 
@@ -184,7 +226,7 @@
         }
 
         function step() {
-            if (!game || game.over) {
+            if (!gameStarted || !game || game.over) {
                 return;
             }
 
@@ -233,12 +275,12 @@
         }
 
         function draw() {
-            if (!game) {
+            if (!gameStarted || !game) {
+                drawBoard();
                 return;
             }
 
-            ctx.fillStyle = '#111827';
-            ctx.fillRect(0, 0, ui.canvas.width, ui.canvas.height);
+            drawBoard();
 
             drawCell(game.food, '#f97316');
             for (var i = 0; i < game.snake.length; i += 1) {
@@ -256,7 +298,7 @@
         }
 
         function startDemoMode() {
-            if (!game || game.over) {
+            if (!gameStarted || !game || game.over) {
                 reset();
                 draw();
             }
@@ -311,9 +353,7 @@
             game.nextDirection = next;
         });
 
-        reset();
-        setDemoMode(false);
-        draw();
+        setIdleState();
         window.setInterval(gameLoop, tickMs);
 
         window.StartNewGame = function () {

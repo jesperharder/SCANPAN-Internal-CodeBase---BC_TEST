@@ -152,12 +152,13 @@ page 50030 "ProdControllingPanPlan"
         TransferLine: Record "Transfer Line";
         Quantity: Decimal;
         EnumOrderStatus: enum EnumProductionOrderStatus;
+        ProdOrderStatusOrdinal: Integer;
         LineNo: Integer;
         LineNoTempTable: Integer;
     begin
         ProdOrderLine.SetFilter(Status, '%1|%2|%3',
                                 EnumOrderStatus::Planned,
-                                EnumOrderStatus::Planned,
+                                EnumOrderStatus::"Firm Planned",
                                 EnumOrderStatus::Released);
 
         item.SetFilter("Inventory Posting Group", 'INTERN|MELLEM|MELLEM RÅ|RV-KROPPE|RV-ALU');
@@ -184,8 +185,9 @@ page 50030 "ProdControllingPanPlan"
                             RecProdControllingPanPlan."End Date" := ProdOrderLine."Ending Date";
                             RecProdControllingPanPlan."Remaining Quantity" := ProdOrderLine."Remaining Qty. (Base)";
 
-                            RecProdControllingPanPlan.Status := ProdOrderLine.Status.AsInteger();
-                            RecProdControllingPanPlan."Status Text" := CopyStr(EnumProductionOrderStatusLoop(ProdOrderLine.Status.AsInteger()), 1, 30);
+                            ProdOrderStatusOrdinal := ProdOrderLine.Status.AsInteger();
+                            RecProdControllingPanPlan.Status := ProdOrderStatusOrdinal;
+                            RecProdControllingPanPlan."Status Text" := CopyStr(EnumProductionOrderStatusLoop(ProdOrderStatusOrdinal), 1, 30);
                             RecProdControllingPanPlan."Order Item No." := ProdOrderLine."Item No.";
                             RecProdControllingPanPlan."Order Item Description" := ItemPOL.Description;
                             RecProdControllingPanPlan."Order Unit" := ItemPOL."Base Unit of Measure";
@@ -317,8 +319,8 @@ page 50030 "ProdControllingPanPlan"
                         repeat
                             LineNo += 1;
                             RecProdControllingPanPlan."Line No." := LineNo;
-                            RecProdControllingPanPlan.Status := 5;
-                            RecProdControllingPanPlan."Status Text" := CopyStr(EnumProductionOrderStatusLoop(5), 1, 30);
+                            RecProdControllingPanPlan.Status := EnumOrderStatus::Receipts.AsInteger();
+                            RecProdControllingPanPlan."Status Text" := CopyStr(EnumProductionOrderStatusLoop(RecProdControllingPanPlan.Status), 1, 30);
                             RecProdControllingPanPlan."Order Item No." := TempProdControllingPanPlan."Bom Item No.";
                             RecProdControllingPanPlan."Order Item Description" := TempProdControllingPanPlan."Bom Description";
                             RecProdControllingPanPlan."Start Date" := TempProdControllingPanPlan."Start Date";
@@ -333,10 +335,13 @@ page 50030 "ProdControllingPanPlan"
     local procedure EnumProductionOrderStatusLoop(EnumValueID: Integer): Text
     //Credit to; https://stefanmaron.com/2021/04/19/code-review-loop-over-an-enum/
     var
+        EnumOrdinal: Integer;
         EnumType: Enum EnumProductionOrderStatus;
     begin
-        foreach EnumType in Enum::"Sales Document Type".Ordinals() do
+        foreach EnumOrdinal in Enum::"EnumProductionOrderStatus".Ordinals() do begin
+            EnumType := EnumOrdinal;
             if EnumType.AsInteger() = EnumValueID then exit(Format(EnumType));
+        end;
     end;
 }
 

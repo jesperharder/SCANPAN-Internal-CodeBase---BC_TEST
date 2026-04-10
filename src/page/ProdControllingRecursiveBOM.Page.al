@@ -430,7 +430,7 @@ page 50061 "ProdControllingRecursiveBOM"
                     begin
                         // Sort by Entry No.
                         RecursiveBOMtemp.Copy(Rec); // Copy the current record to retain filters
-                        RecursiveBOMtemp.SETCURRENTKEY("Entry No.");
+                        RecursiveBOMtemp.SetCurrentKey("Entry No.");
                         CurrPage.SetTableView(RecursiveBOMtemp);
                     end;
                 }
